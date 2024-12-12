@@ -1,0 +1,1288 @@
+code;fullname;age;country;status;rescued
+1;Nunez Jorge;20;Russia;Passenger;Yes
+2;Hartmann Wolfgang;21;Germany;Passenger;Yes
+3;Haarhoff Lily Tembo;22;United Kingdom;Passenger;yes
+4;Zhang Wei;23;France;Passenger;yes
+5;Zhang Yang;24;Italy;Passenger;yes
+6;Nguyen Cam;25;Spain;Passenger;yes
+7;Znaimer Moses;26;Poland;Passenger;yes
+8;Phan Don;27;Ukraine;Passenger;no
+9;Takahashi Koji;28;Romania;Passenger;yes
+10;Chen Ben;29;Netherlands;Passenger;yes
+11;Ngoche Alex Obanda;30;Belgium;Crew;no
+12;Kobayashi Ken;31;Czech Republic (Czechia);Passenger;Yes
+13;Ben Dhifallah Karim;32;Sweden;Passenger;Yes
+14;Santos Carlos;33;Portugal;Passenger;yes
+15;Korner Karl;34;Greece;Passenger;yes
+16;Fayed Paul;35;Hungary;Passenger;yes
+17;Charoenpura Somchai;36;Austria;Passenger;yes
+18;Abe Kenji;37;Belarus;Passenger;yes
+19;Li Lei;38;Switzerland;Passenger;no
+20;Khan Babar;39;Bulgaria;Passenger;yes
+21;Williams Jack;40;Serbia;Passenger;yes
+22;Chen Hsin;41;Denmark;Crew;no
+23;Wagner Richard;42;Finland;Passenger;Yes
+24;Basov Irina;43;Norway;Passenger;Yes
+25;Bhiari Ammar;44;Slovakia;Passenger;yes
+26;Wolf Paul;45;Ireland;Passenger;yes
+27;Burns Frank;46;Croatia;Passenger;yes
+28;Goma Ina;47;Bosnia and Herzegovina;Passenger;yes
+29;Pham Anh;48;Moldova;Passenger;yes
+30;Liu Yang;49;Lithuania;Passenger;no
+31;Balmaceda Patricio;50;Albania;Passenger;yes
+32;Al-Mukhaini Isla;51;Slovenia;Passenger;yes
+33;Giannopoulos Aris;52;Latvia;Crew;yes
+34;Taylor Robert;53;North Macedonia;Passenger;Yes
+35;Rojas Consuelo;54;Estonia;Passenger;no
+36;Maszaros Janos;55;Luxembourg;Passenger;yes
+37;Reyes Antonio;46;Montenegro;Passenger;yes
+38;Svensson Ernst;47;Malta;Passenger;yes
+39;Rossi Mauro;48;Iceland;Passenger;yes
+40;Radafison Nirina;49;Andorra;Passenger;yes
+41;Gauchan Crown Prince;50;Liechtenstein;Passenger;no
+42;Dobrunov Aleksandr;51;Monaco;Passenger;yes
+43;Johnson Carl;52;San Marino;Passenger;yes
+44;Li Jun;53;Russia;Crew;no
+45;Garbi Antonis;54;Germany;Passenger;Yes
+46;Li Li;55;United Kingdom;Passenger;Yes
+47;Yang Lei;56;France;Passenger;no
+48;Ho Cam;57;Italy;Passenger;yes
+49;Banda Duleep;58;Spain;Passenger;yes
+50;Yang Chen;59;Poland;Passenger;yes
+51;Donati Andrea;60;Ukraine;Passenger;yes
+52;Luttrell Edward;61;Romania;Passenger;no
+53;Cruz Jose;62;Netherlands;Passenger;yes
+54;Dom Pedro II Carlos;63;Belgium;Passenger;yes
+55;Cruz John;64;Czech Republic (Czechia);Crew;yes
+56;Li Wei;65;Sweden;Passenger;Yes
+57;Bencomo Andreina;66;Portugal;Passenger;no
+58;Xu Jun;67;Greece;Passenger;yes
+59;Jones Jack;68;Hungary;Passenger;yes
+60;Akef Abu;69;Austria;Passenger;yes
+61;Becker Fritz;70;Belarus;Passenger;yes
+62;Gonzales Dominic;71;Switzerland;Passenger;yes
+63;Douglas Jim;72;Bulgaria;Passenger;no
+64;Zhang Jie;73;Serbia;Passenger;yes
+65;Wei Donnie;74;Denmark;Passenger;yes
+66;Xu Bingjian;75;Finland;Crew;no
+67;Zhang Chen;76;Norway;Passenger;Yes
+68;Alvarez Miguel;77;Slovakia;Passenger;Yes
+69;Kamkar Mohsen;78;Ireland;Passenger;yes
+70;Al-Mukhaini Yaqoob;79;Croatia;Passenger;no
+71;Gallagher Alexander;80;Bosnia and Herzegovina;Passenger;yes
+72;Wang Lei;81;Moldova;Passenger;yes
+73;Al-Shorabi Abdulwahab;82;Lithuania;Passenger;yes
+74;Suzuki Takeshi;83;Albania;Passenger;no
+75;Gutierrez Carlos;84;Slovenia;Passenger;yes
+76;Wang Bing;85;Latvia;Passenger;yes
+77;Li Lin;10;North Macedonia;Crew;yes
+78;Fischer Ernst;11;Estonia;Passenger;Yes
+79;Bombo Shakti;12;Luxembourg;Passenger;Yes
+80;Kitoko Jean-Pierre;13;Montenegro;Passenger;yes
+81;Smith Tom;14;Malta;Passenger;yes
+82;Nowak Tomasz;15;Iceland;Passenger;yes
+83;Yves Douard;16;Andorra;Passenger;yes
+84;Allen Richard;17;Liechtenstein;Passenger;yes
+85;Black George;18;Monaco;Passenger;yes
+86;Zhang Lin;19;San Marino;Passenger;yes
+87;Simelane Zakhele;20;Russia;Passenger;yes
+88;Paphunga Anand;21;Germany;Crew;no
+89;Adam Jean;22;United Kingdom;Passenger;Yes
+90;Lim Abby;23;France;Passenger;Yes
+91;Zhou Lei;24;Italy;Passenger;yes
+92;Zhang Anson;25;Spain;Passenger;yes
+93;Akhmadiyeva Marat;26;Poland;Passenger;no
+94;Alonso Luis;27;Ukraine;Passenger;yes
+95;Nariman Wendy;28;Romania;Passenger;yes
+96;Xu Hao;29;Netherlands;Passenger;yes
+97;Abdalas Aharon;30;Belgium;Passenger;yes
+98;Zhang Ning;31;Czech Republic (Czechia);Passenger;yes
+99;Chen Lin;32;Sweden;Crew;yes
+100;Loan Don;33;Portugal;Passenger;Yes
+101;Dobrunov Alexander;34;Greece;Passenger;Yes
+102;Wang Peng;35;Hungary;Passenger;yes
+103;Zhang Wei;36;Austria;Passenger;yes
+104;Seck Abdoulaye;37;Belarus;Passenger;yes
+105;Nunez Luis Alberto;38;Switzerland;Passenger;yes
+106;Schmidt Heinz;39;Bulgaria;Passenger;yes
+107;Berg Hans;40;Serbia;Passenger;no
+108;Kowalski Stanis;41;Denmark;Passenger;yes
+109;Barbu Stefan;42;Finland;Passenger;yes
+110;Tembo Amon;43;Norway;Crew;no
+111;Garcia Francisco;44;Slovakia;Passenger;Yes
+112;Li Lei;45;Ireland;Passenger;Yes
+113;Schmidt Fritz;46;Croatia;Passenger;yes
+114;Muller Karl;47;Bosnia and Herzegovina;Passenger;yes
+115;Zhang Ai;48;Moldova;Passenger;yes
+116;Castelli Marco;49;Lithuania;Passenger;yes
+117;Ferrari Giuseppe;50;Albania;Passenger;yes
+118;Fischer Otto;51;Slovenia;Passenger;no
+119;Choi Angie;52;Latvia;Passenger;yes
+120;Zhang Wei;53;North Macedonia;Passenger;yes
+121;Garcia Kelvin;54;Estonia;Crew;no
+122;Cauvin Jan;55;Luxembourg;Passenger;Yes
+123;Zhang Yang;56;Montenegro;Passenger;Yes
+124;Chaerudin Ahmad;57;Malta;Passenger;yes
+125;Nguyen Diem;58;Iceland;Passenger;yes
+126;Li Bo;59;Andorra;Passenger;yes
+127;Dobrunov Lev;60;Liechtenstein;Passenger;yes
+128;Loan Bich Phuong;61;Monaco;Passenger;yes
+129;Yang Lin;62;San Marino;Passenger;no
+130;Mirza Ahmad;63;Russia;Passenger;yes
+131;Bahadori Hassan;64;Germany;Passenger;yes
+132;Zhang Lei;65;United Kingdom;Crew;yes
+133;Yang Yang;66;France;Passenger;Yes
+134;Zhu Lin;67;Italy;Passenger;no
+135;Gonzalez Carlos;68;Spain;Passenger;yes
+136;Baloch Aamir;69;Poland;Passenger;yes
+137;Hassan Abby;70;Ukraine;Passenger;yes
+138;Rodriguez Alfonso;71;Romania;Passenger;yes
+139;Li Jie;72;Netherlands;Passenger;yes
+140;Sato Kazuo;73;Belgium;Passenger;no
+141;Ivanov Boris;74;Czech Republic (Czechia);Passenger;yes
+142;Gerima Aisso;75;Sweden;Passenger;yes
+143;Yang Yang;76;Portugal;Crew;no
+144;Forouhar Maryam;77;Greece;Passenger;Yes
+145;Moore Robert;78;Hungary;Passenger;Yes
+146;Gutierrez Jose;79;Austria;Passenger;no
+147;Bettens Jos;80;Belarus;Passenger;yes
+148;Wang Bingyi;81;Switzerland;Passenger;yes
+149;Ben Dhifallah Mohamed;82;Bulgaria;Passenger;yes
+150;Oliveira Bruno;83;Serbia;Passenger;yes
+151;Wang Wei;84;Denmark;Passenger;no
+152;Boughedir Dhafer;85;Finland;Passenger;yes
+153;Niculi Serghei;10;Norway;Passenger;yes
+154;Nilsson Johan;11;Slovakia;Crew;yes
+155;Parra Alberto;12;Ireland;Passenger;Yes
+156;Chen Peng;13;Croatia;Passenger;no
+157;Xu Changpeng;14;Bosnia and Herzegovina;Passenger;yes
+158;Kobayashi Prince;15;Moldova;Passenger;yes
+159;Wei Yang;16;Lithuania;Passenger;yes
+160;Ayar Mamoon Eshaq 0;17;Albania;Passenger;yes
+161;Yang Yang;18;Slovenia;Passenger;yes
+162;Mahmoud Sayed;19;Latvia;Passenger;no
+163;Smith George;20;North Macedonia;Passenger;yes
+164;Wang Wei;21;Estonia;Passenger;yes
+165;Yamamoto Koji;22;Luxembourg;Crew;no
+166;Lim Abdul Rashid;23;Montenegro;Passenger;Yes
+167;Hassan Victor;24;Malta;Passenger;Yes
+168;Gonzalez Carlos;25;Iceland;Passenger;yes
+169;Fampas Georgios;26;Andorra;Passenger;no
+170;Roindefo Marc;27;Liechtenstein;Passenger;yes
+171;Bauder Alfina;28;Monaco;Passenger;yes
+172;Blanc Jean-Pierre;29;San Marino;Passenger;yes
+173;Alvarez Hector;30;Russia;Passenger;no
+174;Do Ching;31;Germany;Passenger;yes
+175;Yang Yang;32;United Kingdom;Passenger;yes
+176;Aab Alexsandr;33;France;Crew;yes
+177;Ahmadzai Abdul Rahim;34;Italy;Passenger;Yes
+178;Hassan Youssef;35;Spain;Passenger;Yes
+179;Zhu Zhong;36;Poland;Passenger;yes
+180;Arnaud Bernard;37;Ukraine;Passenger;yes
+181;Huang Chen;38;Romania;Passenger;yes
+182;Nguyen Anh;39;Netherlands;Passenger;yes
+183;Zhang Jun;40;Belgium;Passenger;yes
+184;Shevchenko Anatoly;41;Czech Republic (Czechia);Passenger;yes
+185;Bianchi Giovanni;42;Sweden;Passenger;yes
+186;Ito Yuki;43;Portugal;Passenger;yes
+187;Kovacs George;44;Greece;Crew;no
+188;Pilika Francois;45;Hungary;Passenger;Yes
+189;Zhao Chen;46;Austria;Passenger;Yes
+190;Malik Ahsan;47;Belarus;Passenger;yes
+191;Kato Hideyuki;48;Switzerland;Passenger;yes
+192;Rojas Roberto;49;Bulgaria;Passenger;no
+193;Amenbar Roberto;50;Serbia;Passenger;yes
+194;Xu Li;51;Denmark;Passenger;yes
+195;Condariuc Grigore;52;Finland;Passenger;yes
+196;Mammadov Aziza;53;Norway;Passenger;yes
+197;Karimi Hossein;54;Slovakia;Passenger;yes
+198;Sato Akira;55;Ireland;Crew;yes
+199;Ravalomanana Marc;56;Croatia;Passenger;Yes
+200;Chen Hao;57;Bosnia and Herzegovina;Passenger;Yes
+201;Kawawa Frederick;58;Moldova;Passenger;yes
+202;Mamo Abraham;59;Lithuania;Passenger;yes
+203;Kibona Andrew;60;Albania;Passenger;yes
+204;Zhao Peng;61;Slovenia;Passenger;yes
+205;Diaz Adolfo;62;Latvia;Passenger;yes
+206;Suzuki Hiroshi;63;North Macedonia;Passenger;no
+207;Zhang Bingyi;64;Estonia;Passenger;yes
+208;Al-Shorabi Eddie;65;Luxembourg;Passenger;yes
+209;Mendy Ibrahima Iyane;66;Montenegro;Crew;no
+210;Alvarez Ricardo;67;Malta;Passenger;Yes
+211;Zhang Jun;68;Iceland;Passenger;Yes
+212;Zhang Ning;69;Andorra;Passenger;yes
+213;Efimkin Eugenia;70;Liechtenstein;Passenger;yes
+214;Dara Pol;71;Monaco;Passenger;yes
+215;Mendy Macky;72;San Marino;Passenger;yes
+216;Qaderi Rahim;73;Russia;Passenger;yes
+217;Smith Michael;74;Germany;Passenger;no
+218;Malik Ahsan;75;United Kingdom;Passenger;yes
+219;Wang Peng;76;France;Passenger;yes
+220;Lambo Ali;77;Italy;Crew;no
+221;Liu Bingbing;78;Spain;Passenger;Yes
+222;Wang Cheng;79;Poland;Passenger;Yes
+223;Anwar Abdul Rahman;80;Ukraine;Passenger;yes
+224;Li Hao;81;Romania;Passenger;yes
+225;Gonzalez Roberto;82;Netherlands;Passenger;yes
+226;Wang Changpeng;83;Belgium;Passenger;yes
+227;Nascimento Marcelo;84;Czech Republic (Czechia);Passenger;yes
+228;Barbu Paul;85;Sweden;Passenger;no
+229;Reyes Chito;10;Portugal;Passenger;yes
+230;Wei Ning;11;Greece;Passenger;yes
+231;Al-Mukhaini Ali;12;Hungary;Crew;yes
+232;Zhang Yang;13;Austria;Passenger;Yes
+233;Gonzalez Diego;14;Belarus;Passenger;no
+234;Li Ge;15;Switzerland;Passenger;yes
+235;Budjana Zaenal;16;Bulgaria;Passenger;yes
+236;Li Chen;17;Serbia;Passenger;yes
+237;Zhang Benedict;18;Denmark;Passenger;yes
+238;Maazou Ouwo Moussa;19;Finland;Passenger;yes
+239;Abdalas David;20;Norway;Passenger;no
+240;Schmidt Rudolf;21;Slovakia;Passenger;yes
+241;Al-Khas Zaid;22;Ireland;Passenger;yes
+242;Popov Andrei;23;Croatia;Crew;no
+243;Ivanov Alexei;24;Bosnia and Herzegovina;Passenger;Yes
+244;Yoon Akihiko;25;Moldova;Passenger;Yes
+245;Jones Christopher;26;Lithuania;Passenger;no
+246;Wu Li;27;Albania;Passenger;yes
+247;Karat Hector Hugh;28;Slovenia;Passenger;yes
+248;Khaki Edward;29;Latvia;Passenger;yes
+249;Rodriguez Miguel;30;North Macedonia;Passenger;yes
+250;Lei Jun;31;Estonia;Passenger;no
+251;Kim Chan;32;Luxembourg;Passenger;yes
+252;Babar Faisal;33;Montenegro;Passenger;yes
+253;Budjana Anang;34;Malta;Crew;yes
+254;Li Baby;35;Iceland;Passenger;Yes
+255;Cardinale Bechir;36;Andorra;Passenger;no
+256;Li Jie;37;Liechtenstein;Passenger;yes
+257;Wang Yang;38;Monaco;Passenger;yes
+258;Chen Bingbing;39;San Marino;Passenger;yes
+259;Ha Binh;40;Russia;Passenger;yes
+260;Xu Hao;41;Germany;Passenger;yes
+261;Zhang Ge;42;United Kingdom;Passenger;no
+262;Jiang Lei;43;France;Passenger;yes
+263;Ouma Ajuma Nasenyana;44;Italy;Passenger;yes
+264;Agrest David;45;Spain;Crew;no
+265;Hosseini Amin;46;Poland;Passenger;Yes
+266;Garcia Antonio;47;Ukraine;Passenger;Yes
+267;Yang Bingyi;48;Romania;Passenger;yes
+268;Ouma Francis;49;Netherlands;Passenger;no
+269;Caveda Haile;50;Belgium;Passenger;yes
+270;Wang Jie;51;Czech Republic (Czechia);Passenger;yes
+271;Zhang Zhi;52;Sweden;Passenger;yes
+272;Ha Jacques Van Mau;53;Portugal;Passenger;no
+273;Li Yang;54;Greece;Passenger;yes
+274;Lederer Ernst;55;Hungary;Passenger;yes
+275;Mendez Francisco;56;Austria;Crew;yes
+276;Hussain Salma;57;Belarus;Passenger;Yes
+277;Costa Fernanda;58;Switzerland;Passenger;Yes
+278;Armstrong Bill;59;Bulgaria;Passenger;yes
+279;Yang Hao;60;Serbia;Passenger;yes
+280;Adjaye Andrew;61;Denmark;Passenger;yes
+281;Kamkar Ali Akbar;62;Finland;Passenger;yes
+282;Yang Wei;63;Norway;Passenger;yes
+283;Chen Zhi;64;Slovakia;Passenger;yes
+284;Santos Jose;65;Ireland;Passenger;yes
+285;Wang Lei;66;Croatia;Passenger;yes
+286;Liu Li;67;Bosnia and Herzegovina;Crew;no
+287;Blanco Luis;68;Moldova;Passenger;Yes
+288;Zhu Jun;69;Lithuania;Passenger;Yes
+289;Li Peng;70;Albania;Passenger;yes
+290;Becker Karl;71;Slovenia;Passenger;yes
+291;Tobing Muhammad;72;Latvia;Passenger;no
+292;Chen Peng;73;North Macedonia;Passenger;yes
+293;Huang Wei;74;Estonia;Passenger;yes
+294;Ho Huu;75;Luxembourg;Passenger;yes
+295;Li Yang;76;Montenegro;Passenger;yes
+296;Wuawski Zbigniew;77;Malta;Passenger;yes
+297;Kang Seung-Hoon;78;Iceland;Crew;yes
+298;Chau Norodom;79;Andorra;Passenger;Yes
+299;Adams Jim;80;Liechtenstein;Passenger;Yes
+300;Sanchez Javier;81;Monaco;Passenger;yes
+301;Adhia Cleopa;82;San Marino;Passenger;yes
+302;Abrikosov Andriy;83;Russia;Passenger;yes
+303;Park Min-Jung;84;Germany;Passenger;yes
+304;Santos Ana;85;United Kingdom;Passenger;yes
+305;Wang Yang;10;France;Passenger;no
+306;Zhang Wei;11;Italy;Passenger;yes
+307;Wong Mohamed;12;Spain;Passenger;yes
+308;Li Hao;13;Poland;Crew;no
+309;Zhang Jun;14;Ukraine;Passenger;Yes
+310;Zhou Ge;15;Romania;Passenger;Yes
+311;Li Yang;16;Netherlands;Passenger;yes
+312;Anwar A.;17;Belgium;Passenger;yes
+313;Perera M;18;Czech Republic (Czechia);Passenger;yes
+314;Fampas Georgios;19;Sweden;Passenger;yes
+315;Gonzalez Arturo;20;Portugal;Passenger;yes
+316;Coetzee John;21;Greece;Passenger;no
+317;Brown Peter;22;Hungary;Passenger;yes
+318;Suarez Guido;23;Austria;Passenger;yes
+319;Margaritoglou Prince;24;Belarus;Crew;no
+320;Liu Hao;25;Switzerland;Passenger;Yes
+321;Bahaina Esti;26;Bulgaria;Passenger;Yes
+322;Garcia Juan;27;Serbia;Passenger;yes
+323;Perez Ivan;28;Denmark;Passenger;yes
+324;Yang Bingbing;29;Finland;Passenger;yes
+325;Li Wei;30;Norway;Passenger;yes
+326;Barbu Valentin;31;Slovakia;Passenger;yes
+327;Khan Aafia;32;Ireland;Passenger;no
+328;Campos Alfonso;33;Croatia;Passenger;yes
+329;Li Wei;34;Bosnia and Herzegovina;Passenger;yes
+330;Hassan James;35;Moldova;Crew;yes
+331;Dube Barry;36;Lithuania;Passenger;Yes
+332;Yang Lei;37;Albania;Passenger;no
+333;Khan Imtiaz;38;Slovenia;Passenger;yes
+334;Zhang Bing;39;Latvia;Passenger;yes
+335;Golovin Anastasia;40;North Macedonia;Passenger;yes
+336;Kuzmina Mikhail;41;Estonia;Passenger;yes
+337;Gomes Camila;42;Luxembourg;Passenger;yes
+338;Wu Chan;43;Montenegro;Passenger;no
+339;Zhang Bingbing;44;Malta;Passenger;yes
+340;Michel Jean-Pierre;45;Iceland;Passenger;yes
+341;Anwar Muhammad;46;Andorra;Crew;no
+342;Aly Philibert;47;Liechtenstein;Passenger;Yes
+343;Wang Yang;48;Monaco;Passenger;Yes
+344;Richter Georg;49;San Marino;Passenger;no
+345;Zhang Yang;50;Russia;Passenger;yes
+346;Kunda Henry;51;Germany;Passenger;yes
+347;Codreanu Alexei;52;United Kingdom;Passenger;yes
+348;Zhang Bingjian;53;France;Passenger;yes
+349;Bajracharya Aama;54;Italy;Passenger;no
+350;Yan Benedict;55;Spain;Passenger;yes
+351;Wuawski Adam;56;Poland;Passenger;yes
+352;Abouba Hamani;57;Ukraine;Crew;yes
+353;Alhouthi Haim;58;Romania;Passenger;Yes
+354;Muller Otto;59;Netherlands;Passenger;no
+355;Wang Lei;60;Belgium;Passenger;yes
+356;Li Lin;61;Czech Republic (Czechia);Passenger;yes
+357;Wang Jie;62;Sweden;Passenger;yes
+358;Chen Anson;63;Portugal;Passenger;yes
+359;Bauer Walter;64;Greece;Passenger;yes
+360;Agrest Alyaksey;65;Hungary;Passenger;no
+361;Hoang Ching;66;Austria;Passenger;yes
+362;Michie Prakash;67;Belarus;Passenger;yes
+363;Suzuki Shigeru;68;Switzerland;Crew;no
+364;Ivanov Evgeny;69;Bulgaria;Passenger;Yes
+365;Jeong Ae-ra;70;Serbia;Passenger;Yes
+366;Wu Lei;71;Denmark;Passenger;yes
+367;Fox James;72;Finland;Passenger;no
+368;Babar Asim;73;Norway;Passenger;yes
+369;Yang Jun;74;Slovakia;Passenger;yes
+370;Zhou Li;75;Ireland;Passenger;yes
+371;Ho Hi Manh Dong;76;Croatia;Passenger;no
+372;Becker Heinz;77;Bosnia and Herzegovina;Passenger;yes
+373;Li Michael;78;Moldova;Passenger;yes
+374;Mahmoud Abdelhameed;79;Lithuania;Crew;yes
+375;Li Yang;80;Albania;Passenger;Yes
+376;Zhang Li;81;Slovenia;Passenger;Yes
+377;David Nicolae;82;Latvia;Passenger;yes
+378;Hosseini Ali;83;North Macedonia;Passenger;yes
+379;Souza Paulo;84;Estonia;Passenger;yes
+380;Basov Michael;85;Luxembourg;Passenger;yes
+381;Liu Li;10;Montenegro;Passenger;yes
+382;Alvarez Alfredo;11;Malta;Passenger;yes
+383;Koirala Kamal;12;Iceland;Passenger;yes
+384;Anwar Amrozi Bin;13;Andorra;Passenger;yes
+385;Silva Leandro;14;Liechtenstein;Crew;no
+386;Mangalaza Marc;15;Monaco;Passenger;Yes
+387;Suzuki Ken;16;San Marino;Passenger;Yes
+388;Dijkstra Albert;17;Russia;Passenger;yes
+389;Aouadhi Aharon;18;Germany;Passenger;yes
+390;Agrest Andrei;19;United Kingdom;Passenger;no
+391;Wilson George;20;France;Passenger;yes
+392;Becker Werner;21;Italy;Passenger;yes
+393;Zhang Michael;22;Spain;Passenger;yes
+394;Manninen Sami;23;Poland;Passenger;yes
+395;Bouzid Aharon;24;Ukraine;Passenger;yes
+396;Burak Martine Morrocky;25;Romania;Crew;yes
+397;Martinez Sergio;26;Netherlands;Passenger;Yes
+398;Aquino John;27;Belgium;Passenger;Yes
+399;Johnson David;28;Czech Republic (Czechia);Passenger;yes
+400;Li Yang;29;Sweden;Passenger;yes
+401;Thielsch Muhammad;30;Portugal;Passenger;yes
+402;Jones Paul;31;Greece;Passenger;yes
+403;Dego Angel;32;Hungary;Passenger;yes
+404;Li Jun;33;Austria;Passenger;no
+405;Maazou Mahamane;34;Belarus;Passenger;yes
+406;Zhu Lin;35;Switzerland;Passenger;yes
+407;Chavez Sergio;36;Bulgaria;Crew;no
+408;Liu Zhang;37;Serbia;Passenger;Yes
+409;Wang Lei;38;Denmark;Passenger;Yes
+410;Wang Chun;39;Finland;Passenger;yes
+411;Kobayashi Ken;40;Norway;Passenger;yes
+412;Xu Yang;41;Slovakia;Passenger;yes
+413;Blair Bruce;42;Ireland;Passenger;yes
+414;Liu Jun;43;Croatia;Passenger;yes
+415;Amin Abdul;44;Bosnia and Herzegovina;Passenger;no
+416;Yamada Shigeru;45;Moldova;Passenger;yes
+417;Obuya Adan Mohamed Nuur;46;Lithuania;Passenger;yes
+418;Gallagher A.;47;Albania;Crew;no
+419;Jahani Ehsan;48;Slovenia;Passenger;Yes
+420;Andrade Rodrigo;49;Latvia;Passenger;Yes
+421;Hussain Faisal;50;North Macedonia;Passenger;yes
+422;Parra Alfredo;51;Estonia;Passenger;yes
+423;Kamkar Hassan;52;Luxembourg;Passenger;yes
+424;Buysse Andre;53;Montenegro;Passenger;yes
+425;Chen Bing;54;Malta;Passenger;yes
+426;Loan Cam;55;Iceland;Passenger;no
+427;Diori Albade;56;Andorra;Passenger;yes
+428;Yang Ning;57;Liechtenstein;Passenger;yes
+429;Yan Yang;58;Monaco;Crew;yes
+430;Achiou Ahmed;59;San Marino;Passenger;Yes
+431;Aquino Jose;60;Russia;Passenger;no
+432;Xu Li;61;Germany;Passenger;yes
+433;Li Wei;62;United Kingdom;Passenger;yes
+434;Engel Fritz;63;France;Passenger;yes
+435;De Bie Jean;64;Italy;Passenger;yes
+436;Boy Apasra;65;Spain;Passenger;yes
+437;Thapa Basanta;66;Poland;Passenger;no
+438;Wattansin Anucha;67;Ukraine;Passenger;yes
+439;Omonga Joseph;68;Romania;Passenger;yes
+440;Garcia Carlos;69;Netherlands;Crew;no
+441;Loan Ching;70;Belgium;Passenger;Yes
+442;Yang Ai;71;Czech Republic (Czechia);Passenger;Yes
+443;Balawan Zaenal;72;Sweden;Passenger;no
+444;Wang Jie;73;Portugal;Passenger;yes
+445;Dijk Ab;74;Greece;Passenger;yes
+446;Wang Yang;75;Hungary;Passenger;yes
+447;Murphy John;76;Austria;Passenger;yes
+448;Carr George;77;Belarus;Passenger;no
+449;Fischer Fritz;78;Switzerland;Passenger;yes
+450;Yang Bing;79;Bulgaria;Passenger;yes
+451;Chen Ge;80;Serbia;Crew;yes
+452;Fernando Alawwe;81;Denmark;Passenger;Yes
+453;Gonzalez Manuel;82;Finland;Passenger;no
+454;Liu Lei;83;Norway;Passenger;yes
+455;Muller Thomas;84;Slovakia;Passenger;yes
+456;Xu Yang;85;Ireland;Passenger;yes
+457;Alonso Antonio;10;Croatia;Passenger;yes
+458;Wang Jun;11;Bosnia and Herzegovina;Passenger;yes
+459;Muller Martin;12;Moldova;Passenger;no
+460;Santos Rafael;13;Lithuania;Passenger;yes
+461;Butt Imran;14;Albania;Passenger;yes
+462;Budjana Amrozi Bin;15;Slovenia;Crew;no
+463;Kawawa David;16;Latvia;Passenger;Yes
+464;Ahmed Ahsan;17;North Macedonia;Passenger;Yes
+465;Li Zheng;18;Estonia;Passenger;yes
+466;Kamkar Hossein;19;Luxembourg;Passenger;no
+467;Codreanu Victor;20;Montenegro;Passenger;yes
+468;Hsu Sam;21;Malta;Passenger;yes
+469;Wang Wei;22;Iceland;Passenger;yes
+470;Zaland Shahla Zaland 0;23;Andorra;Passenger;no
+471;David Jacques;24;Liechtenstein;Passenger;yes
+472;Jones George;25;Monaco;Passenger;yes
+473;Zhang Ai;26;San Marino;Crew;yes
+474;Wang Ben;27;Russia;Passenger;Yes
+475;Wang Jun;28;Germany;Passenger;Yes
+476;Dobrunov Andrei;29;United Kingdom;Passenger;yes
+477;Fernandez Leo;30;France;Passenger;yes
+478;Chen Anson;31;Italy;Passenger;yes
+479;Yang Jun;32;Spain;Passenger;yes
+480;Sezer Osuz;33;Poland;Passenger;yes
+481;Zhang Ben;34;Ukraine;Passenger;yes
+482;Gilels Anna;35;Romania;Passenger;yes
+483;Borges Jessica;36;Netherlands;Passenger;yes
+484;Hedman Ulf;37;Belgium;Crew;no
+485;Alvarez Carolina;38;Czech Republic (Czechia);Passenger;Yes
+486;Gilels Viktor;39;Sweden;Passenger;Yes
+487;Herrmann Walter;40;Portugal;Passenger;yes
+488;Huang Hao;41;Greece;Passenger;yes
+489;Jahani Mamoon Eshaq 0;42;Hungary;Passenger;no
+490;Chen Jie;43;Austria;Passenger;yes
+491;Silva Andre;44;Belarus;Passenger;yes
+492;Reyes Rico;45;Switzerland;Passenger;yes
+493;Zhang Chengdong;46;Bulgaria;Passenger;yes
+494;Nguyen Bich Phuong;47;Serbia;Passenger;yes
+495;Diori Mahamane;48;Denmark;Crew;yes
+496;Fampas Konstantinos;49;Finland;Passenger;Yes
+497;Amsalem Benhalima;50;Norway;Passenger;Yes
+498;Brar Adan Mohamed Nuur;51;Slovakia;Passenger;yes
+499;LuaLua Joseph;52;Ireland;Passenger;yes
+500;Bahaina Asher;53;Croatia;Passenger;yes
+501;Nascimento Heitor;54;Bosnia and Herzegovina;Passenger;yes
+502;Xu Zhi;55;Moldova;Passenger;yes
+503;Johansson Thomas;56;Lithuania;Passenger;no
+504;Popov Andrei;57;Albania;Passenger;yes
+505;Perera Tissa;58;Slovenia;Passenger;yes
+506;Suzuki Takeshi;59;Latvia;Crew;no
+507;Sheikh Javed;60;North Macedonia;Passenger;Yes
+508;Aguilar Anand;61;Estonia;Passenger;Yes
+509;Miller Steve;62;Luxembourg;Passenger;yes
+510;Yamada Daisuke;63;Montenegro;Passenger;yes
+511;Aguilar Somchai;64;Malta;Passenger;yes
+512;Li Jun;65;Iceland;Passenger;yes
+513;Parra Claudio;66;Andorra;Passenger;yes
+514;Brown Michael;67;Liechtenstein;Passenger;no
+515;Popov Aleksandr;68;Monaco;Passenger;yes
+516;Becker Heinz;69;San Marino;Passenger;yes
+517;Castillo Alejandro;70;Russia;Crew;no
+518;Lei Lin;71;Germany;Passenger;Yes
+519;Zhang Lei;72;United Kingdom;Passenger;Yes
+520;Dube Anton;73;France;Passenger;yes
+521;Li Chen;74;Italy;Passenger;yes
+522;Budjana Alexander;75;Spain;Passenger;yes
+523;Kurkov Friedrich;76;Poland;Passenger;yes
+524;Anwar Agustiar;77;Ukraine;Passenger;yes
+525;Delfino Alejandro;78;Romania;Passenger;no
+526;Castelli Pietro;79;Netherlands;Passenger;yes
+527;Thapa Basanta;80;Belgium;Passenger;yes
+528;Silva Paulo;81;Czech Republic (Czechia);Crew;yes
+529;Reyes Ramon;82;Sweden;Passenger;Yes
+530;Dapkiunas Dita;83;Portugal;Passenger;no
+531;Hoffmann Fritz;84;Greece;Passenger;yes
+532;Kang Seung-Won;85;Hungary;Passenger;yes
+533;Smith Peter;10;Austria;Passenger;yes
+534;Bandara Duleep;11;Belarus;Passenger;yes
+535;Loan Batong;12;Switzerland;Passenger;yes
+536;Omonga Barbara;13;Bulgaria;Passenger;no
+537;Becker Paul;14;Serbia;Passenger;yes
+538;Colombo Paolo;15;Denmark;Passenger;yes
+539;Kato Koji;16;Finland;Crew;no
+540;Diouf Abdou;17;Norway;Passenger;Yes
+541;Yang Li;18;Slovakia;Passenger;Yes
+542;Kowalski Krzysztof;19;Ireland;Passenger;no
+543;Yoon Hyo-Jin;20;Croatia;Passenger;yes
+544;Alonso Francisco;21;Bosnia and Herzegovina;Passenger;yes
+545;Loan Chau;22;Moldova;Passenger;yes
+546;Hoang Binh;23;Lithuania;Passenger;yes
+547;Agrest Kanstantsin;24;Albania;Passenger;no
+548;Mangalaza Andry;25;Slovenia;Passenger;yes
+549;Boy Aff;26;Latvia;Passenger;yes
+550;Rodriguez Ana;27;North Macedonia;Crew;yes
+551;Popov Ivan;28;Estonia;Passenger;Yes
+552;Avsenik Zeljko;29;Luxembourg;Passenger;no
+553;Zhang Chen;30;Montenegro;Passenger;yes
+554;Aghdamski Rafael;31;Malta;Passenger;yes
+555;Chen Michael;32;Iceland;Passenger;yes
+556;Bethke Jesse;33;Andorra;Passenger;yes
+557;Anwar Abdul Rahman;34;Liechtenstein;Passenger;yes
+558;Khan Muhammad;35;Monaco;Passenger;no
+559;Li Chen;36;San Marino;Passenger;yes
+560;Fampas Nikos;37;Russia;Passenger;yes
+561;Gonzalez Alejandro;38;Germany;Crew;no
+562;Berman Albert;39;United Kingdom;Passenger;Yes
+563;Fenter Justine;40;France;Passenger;Yes
+564;Chen Changpeng;41;Italy;Passenger;yes
+565;Ako Patrick;42;Spain;Passenger;no
+566;Li Zheng;43;Poland;Passenger;yes
+567;Allouache Edmond;44;Ukraine;Passenger;yes
+568;Miller Tom;45;Romania;Passenger;yes
+569;Thapa Babu Sherpa;46;Netherlands;Passenger;no
+570;Roindefo Dimitri;47;Belgium;Passenger;yes
+571;Smith George;48;Czech Republic (Czechia);Passenger;yes
+572;Agudelo Gabriel;49;Sweden;Crew;yes
+573;Zhang Lei;50;Portugal;Passenger;Yes
+574;Adjaye Cleopa;51;Greece;Passenger;Yes
+575;Liu Chen;52;Hungary;Passenger;yes
+576;Cardenas Alfonso;53;Austria;Passenger;yes
+577;Wu Zhang;54;Belarus;Passenger;yes
+578;Kanapyanov Abay Ibrahim;55;Switzerland;Passenger;yes
+579;Lee Ah-Joong;56;Bulgaria;Passenger;yes
+580;Aubakirov Boris;57;Serbia;Passenger;yes
+581;Smith James;58;Denmark;Passenger;yes
+582;Koksal Sinan;59;Finland;Passenger;yes
+583;Abe Hideo;60;Norway;Crew;no
+584;Liu Boran;61;Slovakia;Passenger;Yes
+585;Goncearov Natalia Barbu;62;Ireland;Passenger;Yes
+586;Li Chen;63;Croatia;Passenger;yes
+587;Loan Cesar;64;Bosnia and Herzegovina;Passenger;yes
+588;Santos Paulo;65;Moldova;Passenger;no
+589;Ousmane Abdoulaye;66;Lithuania;Passenger;yes
+590;Xu Li;67;Albania;Passenger;yes
+591;Chen Jun;68;Slovenia;Passenger;yes
+592;Koksal Adem;69;Latvia;Passenger;yes
+593;Anwar Arif;70;North Macedonia;Passenger;yes
+594;Zhao Yang;71;Estonia;Crew;yes
+595;Zhang Ge;72;Luxembourg;Passenger;Yes
+596;Li Chen;73;Montenegro;Passenger;Yes
+597;Ahmad Abdul Hameed;74;Malta;Passenger;yes
+598;Smith David;75;Iceland;Passenger;yes
+599;Aquino Antonio;76;Andorra;Passenger;yes
+600;Gonzalez Diego;77;Liechtenstein;Passenger;yes
+601;Ribeiro Wilson;78;Monaco;Passenger;yes
+602;Balcus Vitalijs;79;San Marino;Passenger;no
+603;Yang Bing;80;Russia;Passenger;yes
+604;Calamaro Enrique;81;Germany;Passenger;yes
+605;Liu Chen;82;United Kingdom;Crew;no
+606;Niculescu Constantin;83;France;Passenger;Yes
+607;Aouadhi Fakhreddine;84;Italy;Passenger;Yes
+608;Muller Werner;85;Spain;Passenger;yes
+609;Dia Djibril Diop;10;Poland;Passenger;yes
+610;Zhao Ding;11;Ukraine;Passenger;yes
+611;Samir Abo El Seoud;12;Romania;Passenger;yes
+612;Malik Amer Haider Khan;13;Netherlands;Passenger;yes
+613;Wei Jun;14;Belgium;Passenger;no
+614;Wang Ning;15;Czech Republic (Czechia);Passenger;yes
+615;Hu Yang;16;Sweden;Passenger;yes
+616;Pham Cam;17;Portugal;Crew;no
+617;Bos Adje van den Berg;18;Greece;Passenger;Yes
+618;Baya Karim;19;Hungary;Passenger;Yes
+619;Khan John;20;Austria;Passenger;yes
+620;Muller Hans;21;Belarus;Passenger;yes
+621;Kovacs Ferenc;22;Switzerland;Passenger;yes
+622;Karat Palghat;23;Bulgaria;Passenger;yes
+623;Adjaye El-Farouk;24;Serbia;Passenger;yes
+624;Cruz Nikki;25;Denmark;Passenger;no
+625;Yang Michael;26;Finland;Passenger;yes
+626;Zhang Hao;27;Norway;Passenger;yes
+627;Clark Tom;28;Slovakia;Crew;yes
+628;Aa Wim;29;Ireland;Passenger;Yes
+629;Kobayashi Daisuke;30;Croatia;Passenger;no
+630;Zhang Wei;31;Bosnia and Herzegovina;Passenger;yes
+631;Wang Jie;32;Moldova;Passenger;yes
+632;Anwar Taufik;33;Lithuania;Passenger;yes
+633;Wei Wei;34;Albania;Passenger;yes
+634;Sanchez David;35;Slovenia;Passenger;yes
+635;Zhang Chen;36;Latvia;Passenger;no
+636;Wang Jie;37;North Macedonia;Passenger;yes
+637;Yang Jie;38;Estonia;Passenger;yes
+638;Anwar Muhammad;39;Luxembourg;Crew;no
+639;Perez Isabel;40;Montenegro;Passenger;Yes
+640;Bravo Juan;41;Malta;Passenger;Yes
+641;Zhao Jun;42;Iceland;Passenger;no
+642;Richter Karl;43;Andorra;Passenger;yes
+643;Yoadimnadji Nassour Guelendouksia;44;Liechtenstein;Passenger;yes
+644;Chokayev Karim;45;Monaco;Passenger;yes
+645;Liu Ai;46;San Marino;Passenger;yes
+646;Zhang Wei;47;Russia;Passenger;no
+647;Suzuki Kenji;48;Germany;Passenger;yes
+648;Aly Andry;49;United Kingdom;Passenger;yes
+649;Muller Otto;50;France;Crew;yes
+650;Zhang Zheng;51;Italy;Passenger;Yes
+651;Castillo Roberto;52;Spain;Passenger;no
+652;Diboma Samuel;53;Poland;Passenger;yes
+653;Rodriguez Francisco;54;Ukraine;Passenger;yes
+654;Gallagher Abdul Haris;55;Romania;Passenger;yes
+655;Sato Takeshi;56;Netherlands;Passenger;yes
+656;Williams Paul;57;Belgium;Passenger;yes
+657;Ecclestone Zoran;58;Czech Republic (Czechia);Passenger;no
+658;Rafiq Bibit;59;Sweden;Passenger;yes
+659;Lesmana Taufik;60;Portugal;Passenger;yes
+660;Sato Ken;61;Greece;Crew;no
+661;Li Li;62;Hungary;Passenger;Yes
+662;Zhang Bing;63;Austria;Passenger;Yes
+663;Ahsan Muhammad;64;Belarus;Passenger;yes
+664;Zhang Ai;65;Switzerland;Passenger;no
+665;Lesmana Agustiar;66;Bulgaria;Passenger;yes
+666;Ivanov Mikhail;67;Serbia;Passenger;yes
+667;Choi Choi;68;Denmark;Passenger;yes
+668;Armstrong Bill;69;Finland;Passenger;no
+669;Ngoche Alex Obanda;70;Norway;Passenger;yes
+670;Bettens Rene;71;Slovakia;Passenger;yes
+671;Bouzid Bechir;72;Ireland;Crew;yes
+672;Wang Ge;73;Croatia;Passenger;Yes
+673;Wang Zhong;74;Bosnia and Herzegovina;Passenger;Yes
+674;Zhang Yang;75;Moldova;Passenger;yes
+675;Sato Takeshi;76;Lithuania;Passenger;yes
+676;Yang Yang;77;Albania;Passenger;yes
+677;Fernandez Carlo;78;Slovenia;Passenger;yes
+678;Kahnovich Lev;79;Latvia;Passenger;yes
+679;Dridi Michel;80;North Macedonia;Passenger;yes
+680;Ho Cam;81;Estonia;Passenger;yes
+681;Allende Adrian;82;Luxembourg;Passenger;yes
+682;Fischer Walter;83;Montenegro;Crew;no
+683;Wang Jie;84;Malta;Passenger;Yes
+684;Jones James;85;Iceland;Passenger;Yes
+685;Wang Jie;10;Andorra;Passenger;yes
+686;Malik Javed;11;Liechtenstein;Passenger;yes
+687;Gomes Artur;12;Monaco;Passenger;no
+688;Alvarez Manuel;13;San Marino;Passenger;yes
+689;Khan Ahsan;14;Russia;Passenger;yes
+690;Silva Rafael;15;Germany;Passenger;yes
+691;Nguyen Jacques Van Mau;16;United Kingdom;Passenger;yes
+692;Niang Andre;17;France;Passenger;yes
+693;Bianchi Stefano;18;Italy;Crew;yes
+694;Lien Batong;19;Spain;Passenger;Yes
+695;Li Chen;20;Poland;Passenger;Yes
+696;Xu Ai;21;Ukraine;Passenger;yes
+697;Becker Franz;22;Romania;Passenger;yes
+698;Nguyen Billinjer C;23;Netherlands;Passenger;yes
+699;Caveda Angel;24;Belgium;Passenger;yes
+700;Hamdan Zohair;25;Czech Republic (Czechia);Passenger;yes
+701;Xu Ning;26;Sweden;Passenger;no
+702;Baldini John;27;Portugal;Passenger;yes
+703;Hleb Chaim Azriel;28;Greece;Passenger;yes
+704;Hoang Ching;29;Hungary;Crew;no
+705;Zhao Lei;30;Austria;Passenger;Yes
+706;Yang Jie;31;Belarus;Passenger;Yes
+707;Zhou Hao;32;Switzerland;Passenger;yes
+708;Arroyo Gabriel;33;Bulgaria;Passenger;yes
+709;Martens Jan;34;Serbia;Passenger;yes
+710;LuaLua Barbara;35;Denmark;Passenger;yes
+711;Yang Jun;36;Finland;Passenger;yes
+712;Castro Eduardo;37;Norway;Passenger;no
+713;Li Yang;38;Slovakia;Passenger;yes
+714;Li Jie;39;Ireland;Passenger;yes
+715;Al-Shorabi Abdulwahab;40;Croatia;Crew;no
+716;Young Mike;41;Bosnia and Herzegovina;Passenger;Yes
+717;Sato Kaoru;42;Moldova;Passenger;Yes
+718;Zhang Ning;43;Lithuania;Passenger;yes
+719;Ako Alexandre Song;44;Albania;Passenger;yes
+720;Chedid Ahmed H.;45;Slovenia;Passenger;yes
+721;Yang Lei;46;Latvia;Passenger;yes
+722;Liu Zhi;47;North Macedonia;Passenger;yes
+723;Castro Adriana;48;Estonia;Passenger;no
+724;Nascimento Marcelo;49;Luxembourg;Passenger;yes
+725;Michie Chris;50;Montenegro;Passenger;yes
+726;Ferreira Mario;51;Malta;Crew;yes
+727;Chen Hao;52;Iceland;Passenger;Yes
+728;Muller Rudolf;53;Andorra;Passenger;no
+729;Aab Lyubov;54;Liechtenstein;Passenger;yes
+730;Chen Jie;55;Monaco;Passenger;yes
+731;Xu Wei;56;San Marino;Passenger;yes
+732;Laszlo Gyula;57;Russia;Passenger;yes
+733;Cardenas Sergio;58;Germany;Passenger;yes
+734;Nariman Fali Sam;59;United Kingdom;Passenger;no
+735;Fuema Abdoulaye Khouma;60;France;Passenger;yes
+736;Dapkiunas Dzmitry;61;Italy;Passenger;yes
+737;Machado Jose;62;Spain;Crew;no
+738;Moua Bounnhang;63;Poland;Passenger;Yes
+739;Brown Thomas;64;Ukraine;Passenger;Yes
+740;Brown Frank;65;Romania;Passenger;no
+741;Malik Asim;66;Netherlands;Passenger;yes
+742;Tembo Henry;67;Belgium;Passenger;yes
+743;Calvert Gordon;68;Czech Republic (Czechia);Passenger;yes
+744;Smith Jim;69;Sweden;Passenger;yes
+745;Alonso Ada;70;Portugal;Passenger;no
+746;Li Zhang;71;Greece;Passenger;yes
+747;Nguyen Chau;72;Hungary;Passenger;yes
+748;Gallagher Zaenal;73;Austria;Crew;yes
+749;Forouhar Ebrahim;74;Belarus;Passenger;Yes
+750;Smith David;75;Switzerland;Passenger;no
+751;Gilels Anna;76;Bulgaria;Passenger;yes
+752;Li Chen;77;Serbia;Passenger;yes
+753;Mbare Yahya Ould Ahmed El;78;Denmark;Passenger;yes
+754;Karat Donald;79;Finland;Passenger;yes
+755;Wang Fei;80;Norway;Passenger;yes
+756;David Dhafer;81;Slovakia;Passenger;no
+757;Zhang Changpeng;82;Ireland;Passenger;yes
+758;Balawan Alexander;83;Croatia;Passenger;yes
+759;Hamdan Abdul-Malik;84;Bosnia and Herzegovina;Crew;no
+760;Malik Babar;85;Moldova;Passenger;Yes
+761;Becker Hans;10;Lithuania;Passenger;Yes
+762;Dang Batong;11;Albania;Passenger;yes
+763;Vanunu Ahmed;12;Slovenia;Passenger;no
+764;Liu Jie;13;Latvia;Passenger;yes
+765;Rodriguez Gabriela;14;North Macedonia;Passenger;yes
+766;Tekin Mehmet;15;Estonia;Passenger;yes
+767;Brown John;16;Luxembourg;Passenger;no
+768;Zhang Diana;17;Montenegro;Passenger;yes
+769;Yang Lin;18;Malta;Passenger;yes
+770;Hai Cam;19;Iceland;Crew;yes
+771;Davis David;20;Andorra;Passenger;Yes
+772;Taviv Avraham;21;Liechtenstein;Passenger;Yes
+773;Lee Am;22;Monaco;Passenger;yes
+774;Williams John;23;San Marino;Passenger;yes
+775;Suzuki Takeshi;24;Russia;Passenger;yes
+776;Alcazar Abdelaziz;25;Germany;Passenger;yes
+777;Hansen Svend;26;United Kingdom;Passenger;yes
+778;Zhang Zhi;27;France;Passenger;yes
+779;Alves Paulo;28;Italy;Passenger;yes
+780;Goenka Ernest B;29;Spain;Passenger;yes
+781;Muller Walter;30;Poland;Crew;no
+782;Yang Zhang;31;Ukraine;Passenger;Yes
+783;Becker Karl;32;Romania;Passenger;Yes
+784;Alves Wilson;33;Netherlands;Passenger;yes
+785;Zhang Peng;34;Belgium;Passenger;yes
+786;Kato Jun;35;Czech Republic (Czechia);Passenger;no
+787;Li Cheng;36;Sweden;Passenger;yes
+788;Azami Amber;37;Portugal;Passenger;yes
+789;Nakamura Koji;38;Greece;Passenger;yes
+790;Popescu Mihai;39;Hungary;Passenger;yes
+791;Rossi Stefano;40;Austria;Passenger;yes
+792;Li Zhong;41;Belarus;Crew;yes
+793;Gonzi Diana;42;Switzerland;Passenger;Yes
+794;Yang Li;43;Bulgaria;Passenger;Yes
+795;Chedid Pope;44;Serbia;Passenger;yes
+796;Bona Guy;45;Denmark;Passenger;yes
+797;Escobar Jorge;46;Finland;Passenger;yes
+798;Mohede A.;47;Norway;Passenger;yes
+799;Garcia Ramon;48;Slovakia;Passenger;yes
+800;Zhang Bingbing;49;Ireland;Passenger;no
+801;Gomes Joao;50;Croatia;Passenger;yes
+802;Anderson Paul;51;Bosnia and Herzegovina;Passenger;yes
+803;Zhang Lei;52;Moldova;Crew;no
+804;Monteno Adem;53;Lithuania;Passenger;Yes
+805;Kurkov David;54;Albania;Passenger;Yes
+806;Wang Hao;55;Slovenia;Passenger;yes
+807;Fuchs Ludwig;56;Latvia;Passenger;yes
+808;Khan Mirza Kalich;57;North Macedonia;Passenger;yes
+809;Muni Abdoulatifou;58;Estonia;Passenger;yes
+810;Hayvoronsky Anna;59;Luxembourg;Passenger;yes
+811;Aquino Carlo;60;Montenegro;Passenger;no
+812;Bhiari Karim;61;Malta;Passenger;yes
+813;Brown Jim;62;Iceland;Passenger;yes
+814;Zhang Jun;63;Andorra;Crew;no
+815;Gerima Ydnekatchew;64;Liechtenstein;Passenger;Yes
+816;Berman Andrei;65;Monaco;Passenger;Yes
+817;Khaleghi Hassan;66;San Marino;Passenger;yes
+818;Garcia John;67;Russia;Passenger;yes
+819;Aguilar Somchai;68;Germany;Passenger;yes
+820;Rodriguez Francis;69;United Kingdom;Passenger;yes
+821;Brown Paul;70;France;Passenger;yes
+822;Burak Akashambatwa;71;Italy;Passenger;no
+823;Li Jie;72;Spain;Passenger;yes
+824;Yang Chen;73;Poland;Passenger;yes
+825;Zakrzewski Andrzej;74;Ukraine;Crew;yes
+826;Phan Billinjer C;75;Romania;Passenger;Yes
+827;Colombo Antonio;76;Netherlands;Passenger;no
+828;Bachir Jacques;77;Belgium;Passenger;yes
+829;Abderrahmane Anwar Mohamed;78;Czech Republic (Czechia);Passenger;yes
+830;Zhu Ge;79;Sweden;Passenger;yes
+831;Aa Jan;80;Portugal;Passenger;yes
+832;Perera Nihal;81;Greece;Passenger;yes
+833;Leakey Adan Mohamed Nuur;82;Hungary;Passenger;no
+834;Yang Zhong;83;Austria;Passenger;yes
+835;Liu Wei;84;Belarus;Passenger;yes
+836;Zhao Jun;85;Switzerland;Crew;no
+837;David Dumitru;10;Bulgaria;Passenger;Yes
+838;Zhu Zheng;11;Serbia;Passenger;Yes
+839;Zhang Ge;12;Denmark;Passenger;no
+840;Zhang Lin;13;Finland;Passenger;yes
+841;Adhia Edward;14;Norway;Passenger;yes
+842;Smith Michael;15;Slovakia;Passenger;yes
+843;Silva Rodrigo;16;Ireland;Passenger;yes
+844;Zhang Yang;17;Croatia;Passenger;no
+845;Kerndlova Jan;18;Bosnia and Herzegovina;Passenger;yes
+846;Li Zheng;19;Moldova;Passenger;yes
+847;Aouadhi Abderraouf;20;Lithuania;Crew;yes
+848;Alonso Ruben;21;Albania;Passenger;Yes
+849;Smith Mark;22;Slovenia;Passenger;no
+850;Chen Michael;23;Latvia;Passenger;yes
+851;Liu Yang;24;North Macedonia;Passenger;yes
+852;Liu Bingbing;25;Estonia;Passenger;yes
+853;Baya Hichem;26;Luxembourg;Passenger;yes
+854;Zhang Lei;27;Montenegro;Passenger;yes
+855;Doan Huong;28;Malta;Passenger;no
+856;Bethke Chris;29;Iceland;Passenger;yes
+857;Shevchenko Anna;30;Andorra;Passenger;yes
+858;Yang Chen;31;Liechtenstein;Crew;no
+859;Garcia Francis;32;Monaco;Passenger;Yes
+860;Machado Emperor of Brazil;33;San Marino;Passenger;Yes
+861;Kountche Hamani;34;Russia;Passenger;yes
+862;Zhang Yang;35;Germany;Passenger;no
+863;Zhao Wei;36;United Kingdom;Passenger;yes
+864;Khan Ayesha;37;France;Passenger;yes
+865;Fernando Gamini;38;Italy;Passenger;yes
+866;Ivanov Alexey;39;Spain;Passenger;no
+867;Xu Jie;40;Poland;Passenger;yes
+868;Zhang Yang;41;Ukraine;Passenger;yes
+869;Wilson Paul;42;Romania;Crew;yes
+870;Alonso Jose;43;Netherlands;Passenger;Yes
+871;Costa Emperor of Brazil;44;Belgium;Passenger;Yes
+872;Wang Yang;45;Czech Republic (Czechia);Passenger;yes
+873;Akhmadiyeva Aleksandr;46;Sweden;Passenger;yes
+874;Cha Min-Jung;47;Portugal;Passenger;yes
+875;Ali Pope;48;Greece;Passenger;yes
+876;Ito Ken;49;Hungary;Passenger;yes
+877;Hamdoun Abdulwahab;50;Austria;Passenger;yes
+878;Eduard Alexander;51;Belarus;Passenger;yes
+879;Chago Samuel;52;Switzerland;Passenger;yes
+880;Rouvas Kostas;53;Bulgaria;Crew;no
+881;Wang Boran;54;Serbia;Passenger;Yes
+882;Hleb David;55;Denmark;Passenger;Yes
+883;Jeon Choi;56;Finland;Passenger;yes
+884;Aguilar Anucha;57;Norway;Passenger;yes
+885;Murray Charles;58;Slovakia;Passenger;no
+886;Kurkov Ernst;59;Ireland;Passenger;yes
+887;Yang Angela;60;Croatia;Passenger;yes
+888;Filho Rafael;61;Bosnia and Herzegovina;Passenger;yes
+889;Taylor Richard;62;Moldova;Passenger;yes
+890;Chokayev Abay Ibrahim;63;Lithuania;Passenger;yes
+891;Edri Mohamed;64;Albania;Crew;yes
+892;Bembo-Leta Kalu;65;Slovenia;Passenger;Yes
+893;Sotto Lorenzo;66;Latvia;Passenger;Yes
+894;Gonzalez Alejandro;67;North Macedonia;Passenger;yes
+895;Karlsson Anders;68;Estonia;Passenger;yes
+896;Yang Lei;69;Luxembourg;Passenger;yes
+897;Ali Ahmad;70;Montenegro;Passenger;yes
+898;Chen Choling;71;Malta;Passenger;yes
+899;Li Jie;72;Iceland;Passenger;no
+900;Davis David;73;Andorra;Passenger;yes
+901;Johnson Mike;74;Liechtenstein;Passenger;yes
+902;Abouba Hamani;75;Monaco;Crew;no
+903;Zhao Yang;76;San Marino;Passenger;Yes
+904;Rodriguez Gabriel;77;Russia;Passenger;Yes
+905;Baloch Tariq;78;Germany;Passenger;yes
+906;Bona Charles;79;United Kingdom;Passenger;yes
+907;Yang Wei;80;France;Passenger;yes
+908;Miller Peter;81;Italy;Passenger;yes
+909;Belaid Bernard;82;Spain;Passenger;yes
+910;Becker Rudolf;83;Poland;Passenger;no
+911;Patras Alexandre;84;Ukraine;Passenger;yes
+912;Law-Yone Fali Sam;85;Romania;Passenger;yes
+913;Bach Paul;10;Netherlands;Crew;no
+914;Anwar Muhammad;11;Belgium;Passenger;Yes
+915;Angello Dimitrios;12;Czech Republic (Czechia);Passenger;Yes
+916;Liu Jun;13;Sweden;Passenger;yes
+917;Hoffmann Walter;14;Portugal;Passenger;yes
+918;Tavares Artur;15;Greece;Passenger;yes
+919;Antonio Armando;16;Hungary;Passenger;yes
+920;Cardinale Ammar;17;Austria;Passenger;yes
+921;Schmidt Wolfgang;18;Belarus;Passenger;no
+922;Chen Hao;19;Switzerland;Passenger;yes
+923;Santos Paulo;20;Bulgaria;Passenger;yes
+924;Zhang Lin;21;Serbia;Crew;yes
+925;Lambo Ilguilas;22;Denmark;Passenger;Yes
+926;Berman Alexander;23;Finland;Passenger;no
+927;Peretz Yitzhak;24;Norway;Passenger;yes
+928;Rodriguez Guillermo;25;Slovakia;Passenger;yes
+929;Tembo Rainford;26;Ireland;Passenger;yes
+930;Dobrunov Alexey;27;Croatia;Passenger;yes
+931;Liu Jie;28;Bosnia and Herzegovina;Passenger;yes
+932;Wang Jie;29;Moldova;Passenger;no
+933;Lin Alec;30;Lithuania;Passenger;yes
+934;Jones Jack;31;Albania;Passenger;yes
+935;Bauer Max;32;Slovenia;Crew;no
+936;Reyes Cesar;33;Latvia;Passenger;Yes
+937;Goma Artur;34;North Macedonia;Passenger;Yes
+938;Gonzalez Gabriel;35;Estonia;Passenger;no
+939;Hassan Abby;36;Luxembourg;Passenger;yes
+940;Khan Javed;37;Montenegro;Passenger;yes
+941;Watson John;38;Malta;Passenger;yes
+942;Atem Axelle;39;Iceland;Passenger;yes
+943;Zhu Baby;40;Andorra;Passenger;no
+944;Amanaka Alex Obanda;41;Liechtenstein;Passenger;yes
+945;Young Michael;42;Monaco;Passenger;yes
+946;Omar Joe;43;San Marino;Crew;yes
+947;Wang Jie;44;Russia;Passenger;Yes
+948;Escobar Gabriel;45;Germany;Passenger;no
+949;Donati Marco;46;United Kingdom;Passenger;yes
+950;Li Cheng;47;France;Passenger;yes
+951;Flizzow Abdullah;48;Italy;Passenger;yes
+952;Jones John;49;Spain;Passenger;yes
+953;Zhang Jun;50;Poland;Passenger;yes
+954;Xu Jun;51;Ukraine;Passenger;no
+955;Sumac Carlos;52;Romania;Passenger;yes
+956;Budjana Muhammad;53;Netherlands;Passenger;yes
+957;Nath Pol;54;Belgium;Crew;no
+958;Qureshi Mirza Kalich;55;Czech Republic (Czechia);Passenger;Yes
+959;Angello Georgios;56;Sweden;Passenger;Yes
+960;Yang Jun;57;Portugal;Passenger;yes
+961;Abascal Arturo;58;Greece;Passenger;no
+962;Alvarez Rafael;59;Hungary;Passenger;yes
+963;Zhang Peng;60;Austria;Passenger;yes
+964;Kunda Stephen;61;Belarus;Passenger;yes
+965;Khan Talat;62;Switzerland;Passenger;no
+966;Alkaios Evangelos;63;Bulgaria;Passenger;yes
+967;Becker Heinz;64;Serbia;Passenger;yes
+968;Omonga Jean-Pierre;65;Denmark;Crew;yes
+969;Wang Baoping;66;Finland;Passenger;Yes
+970;Jorgensen Michael;67;Norway;Passenger;Yes
+971;Santos Mario;68;Slovakia;Passenger;yes
+972;Szabo Istvan;69;Ireland;Passenger;yes
+973;Chen Ge;70;Croatia;Passenger;yes
+974;Hoang Anh;71;Bosnia and Herzegovina;Passenger;yes
+975;Li Yang;72;Moldova;Passenger;yes
+976;Liu Chengying;73;Lithuania;Passenger;yes
+977;Zhang Peng;74;Albania;Passenger;yes
+978;Merton Peter;75;Slovenia;Passenger;yes
+979;Zhang Wei;76;Latvia;Crew;no
+980;Redl Eva;77;North Macedonia;Passenger;Yes
+981;Murray George;78;Estonia;Passenger;Yes
+982;Schmidt Wolfgang;79;Luxembourg;Passenger;yes
+983;Paphunga Anand;80;Montenegro;Passenger;yes
+984;Zhang Baby;81;Malta;Passenger;no
+985;Richter Otto;82;Iceland;Passenger;yes
+986;Gerima Angel;83;Andorra;Passenger;yes
+987;Chen Alec;84;Liechtenstein;Passenger;yes
+988;Xu Lei;85;Monaco;Passenger;yes
+989;Kaczmarek Kazimierz;10;San Marino;Passenger;yes
+990;Bernal Pablo;11;Russia;Crew;yes
+991;Ha Cesar;12;Germany;Passenger;Yes
+992;Carter Robert;13;United Kingdom;Passenger;Yes
+993;Perera Nihal;14;France;Passenger;yes
+994;Davis Mike;15;Italy;Passenger;yes
+995;Yang Alice;16;Spain;Passenger;yes
+996;Parra Pedro;17;Poland;Passenger;yes
+997;Ho Chau;18;Ukraine;Passenger;yes
+998;Yang Chae-young;19;Romania;Passenger;no
+999;Delano Bertrand;20;Netherlands;Passenger;yes
+1000;Bravo Alfonso;21;Belgium;Passenger;yes
+1001;Lei Jun;22;Czech Republic (Czechia);Crew;no
+1002;Berman Mikhail;23;Sweden;Passenger;Yes
+1003;Li Lin;24;Portugal;Passenger;Yes
+1004;Andersen Per;25;Greece;Passenger;yes
+1005;Zhou Lei;26;Hungary;Passenger;yes
+1006;Wang Chen;27;Austria;Passenger;yes
+1007;Zhao Zhang;28;Belarus;Passenger;yes
+1008;Hoffmann Walter;29;Switzerland;Passenger;yes
+1009;Minh Ching;30;Bulgaria;Passenger;no
+1010;Yang Lin;31;Serbia;Passenger;yes
+1011;Zhang Baoping;32;Denmark;Passenger;yes
+1012;Brown Michael;33;Finland;Crew;no
+1013;Rodriguez Jorge;34;Norway;Passenger;Yes
+1014;Li Peng;35;Slovakia;Passenger;Yes
+1015;Karizi Djelaludin;36;Ireland;Passenger;yes
+1016;Baloch Salma;37;Croatia;Passenger;yes
+1017;Sisamouth Dith;38;Bosnia and Herzegovina;Passenger;yes
+1018;Han Hyo-Jin;39;Moldova;Passenger;yes
+1019;Xu Ai;40;Lithuania;Passenger;yes
+1020;Araya Alejandro;41;Albania;Passenger;no
+1021;Suzuki Kenji;42;Slovenia;Passenger;yes
+1022;Simon Abdoulatifou;43;Latvia;Passenger;yes
+1023;Yang Li;44;North Macedonia;Crew;yes
+1024;Ivanov Ivan;45;Estonia;Passenger;Yes
+1025;Ivanov Kirill;46;Luxembourg;Passenger;no
+1026;Ali Hassan;47;Montenegro;Passenger;yes
+1027;Mamo Sirak;48;Malta;Passenger;yes
+1028;Souza Bruno;49;Iceland;Passenger;yes
+1029;Zhang Jun;50;Andorra;Passenger;yes
+1030;Blanc Jean-Pierre;51;Liechtenstein;Passenger;yes
+1031;Adhia Asha-Rose Mtengeti;52;Monaco;Passenger;no
+1032;Muller Karl;53;San Marino;Passenger;yes
+1033;Li Zheng;54;Russia;Passenger;yes
+1034;Liu Yang;55;Germany;Crew;no
+1035;Antono Amrozi Bin;56;United Kingdom;Passenger;Yes
+1036;Iranzi Bishop Augustin;57;France;Passenger;Yes
+1037;Balawan Alexander G.;58;Italy;Passenger;no
+1038;Ho Don;59;Spain;Passenger;yes
+1039;Bombo Ganesh;60;Poland;Passenger;yes
+1040;Schmidt Kurt;61;Ukraine;Passenger;yes
+1041;Li Ai;62;Romania;Passenger;yes
+1042;Zhu Clara;63;Netherlands;Passenger;no
+1043;Gusev Igor;64;Belgium;Passenger;yes
+1044;Boulanger Constantin;65;Czech Republic (Czechia);Passenger;yes
+1045;Zheng Michael;66;Sweden;Crew;yes
+1046;Liu Wei;67;Portugal;Passenger;Yes
+1047;Yamada Takeshi;68;Greece;Passenger;no
+1048;Engel Rudolf;69;Hungary;Passenger;yes
+1049;Giannopoulos Ilias;70;Austria;Passenger;yes
+1050;Chen Li;71;Belarus;Passenger;yes
+1051;Price Donald;72;Switzerland;Passenger;yes
+1052;Zhou Jie;73;Bulgaria;Passenger;yes
+1053;Jong Adriaen;74;Serbia;Passenger;no
+1054;Nyambe Mulenga Carey;75;Denmark;Passenger;yes
+1055;Sovath Vichara;76;Finland;Passenger;yes
+1056;Suzuki Ken;77;Norway;Crew;no
+1057;Wang Lin;78;Slovakia;Passenger;Yes
+1058;Ak Orhan;79;Ireland;Passenger;Yes
+1059;Hsu Alec;80;Croatia;Passenger;yes
+1060;Zhang Baoping;81;Bosnia and Herzegovina;Passenger;no
+1061;Shin Chan;82;Moldova;Passenger;yes
+1062;Zhang Li;83;Lithuania;Passenger;yes
+1063;Smith Robert;84;Albania;Passenger;yes
+1064;Tekin Abdullah;85;Slovenia;Passenger;no
+1065;Negga Aisso;10;Latvia;Passenger;yes
+1066;Ito Jun;11;North Macedonia;Passenger;yes
+1067;Zhang Li;12;Estonia;Crew;yes
+1068;Garcia Manuel;13;Luxembourg;Passenger;Yes
+1069;He Chen;14;Montenegro;Passenger;Yes
+1070;Kolessov Marat;15;Malta;Passenger;yes
+1071;Wei Baoping;16;Iceland;Passenger;yes
+1072;Choi Bob;17;Andorra;Passenger;yes
+1073;Lima Ricardo;18;Liechtenstein;Passenger;yes
+1074;Chihab Aharon;19;Monaco;Passenger;yes
+1075;Alhouthi Miriam;20;San Marino;Passenger;yes
+1076;Bravo Adriana;21;Russia;Passenger;yes
+1077;Gonzalez Diego;22;Germany;Passenger;yes
+1078;Davis Robert;23;United Kingdom;Crew;no
+1079;Zhu Lei;24;France;Passenger;Yes
+1080;Levy Eli;25;Italy;Passenger;Yes
+1081;Li Wei;26;Spain;Passenger;yes
+1082;Kobayashi Jun;27;Poland;Passenger;yes
+1083;Xu Bing;28;Ukraine;Passenger;no
+1084;Chavez Andres;29;Romania;Passenger;yes
+1085;Akongo Emanuel;30;Netherlands;Passenger;yes
+1086;Baloch Aamer;31;Belgium;Passenger;yes
+1087;Lee Min-Jung;32;Czech Republic (Czechia);Passenger;yes
+1088;Carias Andino Jose Trinidad;33;Sweden;Passenger;yes
+1089;Antoniou Kostas;34;Portugal;Crew;yes
+1090;Loan Anh;35;Greece;Passenger;Yes
+1091;Aubakirov Andrey;36;Hungary;Passenger;Yes
+1092;Price Prakash;37;Austria;Passenger;yes
+1093;Garcia Chris;38;Belarus;Passenger;yes
+1094;Bemba Edouard;39;Switzerland;Passenger;yes
+1095;Haarhoff Amon;40;Bulgaria;Passenger;yes
+1096;Wei Chen;41;Serbia;Passenger;yes
+1097;Law-Yone S. N.;42;Denmark;Passenger;no
+1098;Lesmana Ahmad;43;Finland;Passenger;yes
+1099;Li Li;44;Norway;Passenger;yes
+1100;Adjaye Stephen;45;Slovakia;Crew;no
+1101;Glosca Keith;46;Ireland;Passenger;Yes
+1102;Amarttayakul Jetsada;47;Croatia;Passenger;Yes
+1103;Zhang Bingbing;48;Bosnia and Herzegovina;Passenger;yes
+1104;Schmidt Fritz;49;Moldova;Passenger;yes
+1105;Moller Franz;50;Lithuania;Passenger;yes
+1106;Brown John;51;Albania;Passenger;yes
+1107;Araujo Carlos;52;Slovenia;Passenger;yes
+1108;Zhao Jun;53;Latvia;Passenger;no
+1109;Ellis Christopher;54;North Macedonia;Passenger;yes
+1110;Ayhan Mehmet;55;Estonia;Passenger;yes
+1111;Kovacs Gheorghe;56;Luxembourg;Crew;no
+1112;Nys Louis;57;Montenegro;Passenger;Yes
+1113;Brown Michael;58;Malta;Passenger;Yes
+1114;Gonzales Cesar;59;Iceland;Passenger;yes
+1115;Manyatsi Zakhele;60;Andorra;Passenger;yes
+1116;Omar Fereshta;61;Liechtenstein;Passenger;yes
+1117;Zhao Chen;62;Monaco;Passenger;yes
+1118;Balog Laszlo;63;San Marino;Passenger;yes
+1119;Han Wei;64;Russia;Passenger;no
+1120;Wu Wei;65;Germany;Passenger;yes
+1121;Bologan Svetlana;66;United Kingdom;Passenger;yes
+1122;Wang Zhong;67;France;Crew;yes
+1123;Budjana Zaenal;68;Italy;Passenger;Yes
+1124;Alvarez Alex;69;Spain;Passenger;no
+1125;Colombo Fabio;70;Poland;Passenger;yes
+1126;Ferrer Ahmed;71;Ukraine;Passenger;yes
+1127;Yan Zhang;72;Romania;Passenger;yes
+1128;Sato Masahiro;73;Netherlands;Passenger;yes
+1129;Amador Alcides;74;Belgium;Passenger;yes
+1130;Williams Mike;75;Czech Republic (Czechia);Passenger;no
+1131;Zhang Chen;76;Sweden;Passenger;yes
+1132;Loan Chau;77;Portugal;Passenger;yes
+1133;Abouba Mahamane;78;Greece;Crew;no
+1134;Ciesla Wojciech;79;Hungary;Passenger;Yes
+1135;Kim Jae-Jin;80;Austria;Passenger;Yes
+1136;Jones Robert;81;Belarus;Passenger;no
+1137;Becker Paul;82;Switzerland;Passenger;yes
+1138;Makarova Andrei;83;Bulgaria;Passenger;yes
+1139;Basnet Aama;84;Serbia;Passenger;yes
+1140;Basov Aleksandr;85;Denmark;Passenger;yes
+1141;Zhang Zhi;10;Finland;Passenger;no
+1142;Muller Carl;11;Norway;Passenger;yes
+1143;Zhang Yang;12;Slovakia;Passenger;yes
+1144;Fulton James;13;Ireland;Crew;yes
+1145;Araa Abdul Rahim;14;Croatia;Passenger;Yes
+1146;Alves Rafael;15;Bosnia and Herzegovina;Passenger;no
+1147;Cheng Aska;16;Moldova;Passenger;yes
+1148;Bacs Jozef;17;Lithuania;Passenger;yes
+1149;Johnson Jack;18;Albania;Passenger;yes
+1150;Souza Marcelo;19;Slovenia;Passenger;yes
+1151;Ben-Shlomo Haim;20;Latvia;Passenger;yes
+1152;Smith John;21;North Macedonia;Passenger;no
+1153;Tchami Christopher;22;Estonia;Passenger;yes
+1154;Li Cheng;23;Luxembourg;Passenger;yes
+1155;Zaleski Tadeusz;24;Montenegro;Crew;no
+1156;Wang Yang;25;Malta;Passenger;Yes
+1157;Jong Ad;26;Iceland;Passenger;Yes
+1158;Zhang Lin;27;Andorra;Passenger;yes
+1159;Hoffmann Hans;28;Liechtenstein;Passenger;no
+1160;Lederer Jan;29;Monaco;Passenger;yes
+1161;Wei Yang;30;San Marino;Passenger;yes
+1162;Zhou Lei;31;Russia;Passenger;yes
+1163;Paras Of Nepal Balbhadra;32;Germany;Passenger;no
+1164;Dia Antonio;33;United Kingdom;Passenger;yes
+1165;Park Chan;34;France;Passenger;yes
+1166;Li Chen;35;Italy;Crew;yes
+1167;Diori Seyni;36;Spain;Passenger;Yes
+1168;Nascimento Paulo;37;Poland;Passenger;Yes
+1169;Hassan Ahmad;38;Ukraine;Passenger;yes
+1170;Yang Bangguo;39;Romania;Passenger;yes
+1171;Hernandez Francisco;40;Netherlands;Passenger;yes
+1172;Macdonald Doug;41;Belgium;Passenger;yes
+1173;Miller John;42;Czech Republic (Czechia);Passenger;yes
+1174;Yang Donnie;43;Sweden;Passenger;yes
+1175;Zhou Wei;44;Portugal;Passenger;yes
+1176;He Jun;45;Greece;Passenger;yes
+1177;Wilson William;46;Hungary;Crew;no
+1178;Lambo Hamani;47;Austria;Passenger;Yes
+1179;Garcia Eddie;48;Belarus;Passenger;Yes
+1180;Zhang Zhong;49;Switzerland;Passenger;yes
+1181;Reyes Luis;50;Bulgaria;Passenger;yes
+1182;Li Li;51;Serbia;Passenger;no
+1183;Becker Hermann;52;Denmark;Passenger;yes
+1184;Jones Alexander;53;Finland;Passenger;yes
+1185;Zhang Chen;54;Norway;Passenger;yes
+1186;Fayed Ahmed;55;Slovakia;Passenger;yes
+1187;Li Chen;56;Ireland;Passenger;yes
+1188;Bologan Alexandre;57;Croatia;Crew;yes
+1189;Chen Amir;58;Bosnia and Herzegovina;Passenger;Yes
+1190;Kaminski Marek;59;Moldova;Passenger;Yes
+1191;Yang Li;60;Lithuania;Passenger;yes
+1192;Li Lin;61;Albania;Passenger;yes
+1193;Kobayashi Yoshio;62;Slovenia;Passenger;yes
+1194;Yang Jun;63;Latvia;Passenger;yes
+1195;Djibo Albade;64;North Macedonia;Passenger;yes
+1196;Muller Wolfgang;65;Estonia;Passenger;no
+1197;Kiss Zsolt;66;Luxembourg;Passenger;yes
+1198;Li Bichang;67;Montenegro;Passenger;yes
+1199;Wang Jun;68;Malta;Crew;no
+1200;Zhu Zheng;69;Iceland;Passenger;Yes
+1201;Nascimento Carlos;70;Andorra;Passenger;Yes
+1202;Abascal Sergio;71;Liechtenstein;Passenger;yes
+1203;Hubaishi Hussein Badreddin Al-;72;Monaco;Passenger;yes
+1204;Achiou Yacine;73;San Marino;Passenger;yes
+1205;Parra Francisco;74;Russia;Passenger;yes
+1206;Adhia David;75;Germany;Passenger;yes
+1207;Malik Abdul Hameed;76;United Kingdom;Passenger;no
+1208;Dego Sirak;77;France;Passenger;yes
+1209;Yang Lei;78;Italy;Passenger;yes
+1210;Frank Otto;79;Spain;Crew;no
+1211;Zhang Hao;80;Poland;Passenger;Yes
+1212;Wang Lin;81;Ukraine;Passenger;Yes
+1213;Perera Nihal;82;Romania;Passenger;yes
+1214;He Yang;83;Netherlands;Passenger;yes
+1215;Yamada Hideki;84;Belgium;Passenger;yes
+1216;Pliuschin Alexei;85;Czech Republic (Czechia);Passenger;yes
+1217;Russo Giuseppe;10;Sweden;Passenger;yes
+1218;Thapa Ruby;11;Portugal;Passenger;no
+1219;Herzigov Josef;12;Greece;Passenger;yes
+1220;Ahmed Javed;13;Hungary;Passenger;yes
+1221;Kamkar Ali;14;Austria;Crew;yes
+1222;Brown John;15;Belarus;Passenger;Yes
+1223;Herath Lewis;16;Switzerland;Passenger;no
+1224;Lopez Enrique;17;Bulgaria;Passenger;yes
+1225;Chen Peng;18;Serbia;Passenger;yes
+1226;Wattansin Anand;19;Denmark;Passenger;yes
+1227;Loan Billinjer C;20;Finland;Passenger;yes
+1228;Bologan Serghei;21;Norway;Passenger;yes
+1229;Djibo Abdoulaye;22;Slovakia;Passenger;no
+1230;Escobar Juan;23;Ireland;Passenger;yes
+1231;Charoenpura Anucha;24;Croatia;Passenger;yes
+1232;Muller Fritz;25;Bosnia and Herzegovina;Crew;no
+1233;Wu Andrew;26;Moldova;Passenger;Yes
+1234;Perez Jesus;27;Lithuania;Passenger;Yes
+1235;Doe Helene;28;Albania;Passenger;no
+1236;Reyes Isabel;29;Slovenia;Passenger;yes
+1237;Alva Alberto;30;Latvia;Passenger;yes
+1238;Yang Jun;31;North Macedonia;Passenger;yes
+1239;Wang Peng;32;Estonia;Passenger;yes
+1240;Chen Wei;33;Luxembourg;Passenger;no
+1241;Golovin Evgeny;34;Montenegro;Passenger;yes
+1242;Gonzalez Alfonso;35;Malta;Passenger;yes
+1243;Khan Ayesha;36;Iceland;Crew;yes
+1244;Smith Dan;37;Andorra;Passenger;Yes
+1245;Ivanov Alexei;38;Liechtenstein;Passenger;no
+1246;Xu Peng;39;Monaco;Passenger;yes
+1247;Gonzalez Diego;40;San Marino;Passenger;yes
+1248;Farkas Geza;41;Russia;Passenger;yes
+1249;Johnson Charles;42;Germany;Passenger;yes
+1250;Bona Emile;43;United Kingdom;Passenger;yes
+1251;Carvalho Jose;44;France;Passenger;no
+1252;He Li;45;Italy;Passenger;yes
+1253;Dissanayake Anura;46;Spain;Passenger;yes
+1254;Ho Billinjer C;47;Poland;Crew;no
+1255;Yang Zhang;48;Ukraine;Passenger;Yes
+1256;Escobar Alberto;49;Romania;Passenger;Yes
+1257;Nguyen Binh;50;Netherlands;Passenger;yes
+1258;Popescu Ion;51;Belgium;Passenger;no
+1259;Kim Chan;52;Czech Republic (Czechia);Passenger;yes
+1260;Reyes Isabel;53;Sweden;Passenger;yes
+1261;Ferrer Jacques;54;Portugal;Passenger;yes
+1262;Binalshibh Yisrael;55;Greece;Passenger;no
+1263;Li Li;56;Hungary;Passenger;yes
+1264;Perez Rafael;57;Austria;Passenger;yes
+1265;Yang Li;58;Belarus;Crew;yes
+1266;Li Wei;59;Switzerland;Passenger;Yes
+1267;Mettacara Hector Hugh;60;Bulgaria;Passenger;Yes
+1268;Chau Chuon;61;Serbia;Passenger;yes
+1269;Matsudaira Daisuke;62;Denmark;Passenger;yes
+1270;Zhang Bo;63;Finland;Passenger;yes
+1271;Popescu Andrei;64;Norway;Passenger;yes
+1272;Zhang Wei;65;Slovakia;Passenger;yes
+1273;Oliveira Ana;66;Ireland;Passenger;yes
+1274;Yang Yang;67;Croatia;Passenger;yes
+1275;Lopez Cesar;68;Bosnia and Herzegovina;Passenger;yes
+1276;Zhang Yang;69;Moldova;Crew;no
+1277;Hussain Tariq;70;Lithuania;Passenger;Yes
+1278;Dia Ibrahima;71;Albania;Passenger;Yes
+1279;Abouba Zakari;72;Slovenia;Passenger;yes
+1280;Zhu Hao;73;Latvia;Passenger;yes
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
