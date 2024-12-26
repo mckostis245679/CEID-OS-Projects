@@ -23,8 +23,6 @@ typedef struct {
 
 Memory_Block memory[MEMORY_SIZE]; //memory anaparistate ws memory block
 int num_blocks = 0;
-Process *queue[100];
-int queue_size = 0;
 
 // arxikopoisi dynamic mnimis, xoris na eisaxthei kapoia diergasia akoma
 void memory_init(){
@@ -73,7 +71,7 @@ void print_process_status(Process processes[], int n){
     }
 }
 
-bool deallocate_memory(int pid) {
+bool deallocate_memory(int pid){
     int k = -1;
 
     // Find and deallocate the block
@@ -118,14 +116,16 @@ void round_robin(Process processes[], int p){
     bool done = false;
 
     while(!done){
-        done = true;  // Assume all processes are completed initially
+        done = true;  // Assume all processes are completed
 
         for(int i = 0; i < p; ++i){
             if(processes[i].remaining_time > 0){
                 done = false;  //Brethike process me != 0 burst time
 
                 //AN DEN einai stin mnimi, tote allocate
-                if (!processes[i].in_memory) allocate_memory(&processes[i]);
+                if (!processes[i].in_memory) {
+                    if(!allocate_memory(&processes[i])) continue; //skip process exec if allocation fails
+                }
 
                 //burst time > time quantum
                 if(processes[i].remaining_time > TQ){
@@ -137,8 +137,9 @@ void round_robin(Process processes[], int p){
                     time += processes[i].remaining_time;
                     processes[i].remaining_time = 0;
                     deallocate_memory(processes[i].pid);
+                    processes[i].in_memory = false; //deallocated
                 }
-                printf("\nProcess %d\n", i+1);
+                printf("\nProcess %d\n", processes[i].pid);
                 print_memory();
                 print_process_status(processes, p);
             }
