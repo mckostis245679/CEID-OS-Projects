@@ -1,34 +1,41 @@
 #!/bin/bash
 
+FILE="passenger_data.csv" #GIA DIEUKOLINSH VALTE TO PATH TOU CSV SAS
 
 insert_data() {
-    echo "Enter the file path (or leave blank to input manually):"
-    read filepath
+    echo "Insert data:"
+    read -p "Enter the filename (or press Enter to input manually): " filename
 
-    if [ -z "$filepath" ]; then
-        filepath="./passenger_data.csv"
-    elif [ -f "$filepath" ]; then
-        echo "Enter passenger data in the format:"
-        echo "[code],[fullname],[age],[country],[status (Passenger/Crew)],[rescued (Yes/No)]"
-        echo "Type 'END' when you are done."
-
-        while true; do
-            read line
-            if [ -z "$line" ]; then
+    if [[ -z "$filename" ]]; then
+        echo "Enter passenger data in the format: [code],[fullname],[age],[country],[status (Passenger or Crew)],[rescued (Yes or No)]:"
+        while read -r line; do
+            if [[ -z "$line" ]]; then
                 break
             fi
 
-
-            if [[ "$value" =~ ^[A-Za-z0-9]+,[A-Za-z]+[[:space:]]+[A-Za-z]+,[0-9]+,[^,]+,(Passenger|Crew),(Yes|No)$ ]]; then
-                echo "$line" >> "$filepath"
-            elif [ "$line" = "END" ]; then
-		break
-	    else
-                echo "Invalid format. Please try again."
+            if [[ "$line" =~ ^[A-Za-z0-9]+,[A-Za-z]+[[:space:]]+[A-Za-z]+,[0-9]+,[^,]+,(Passenger|Crew),(Yes|No)$ ]]; then
+                echo "$line" | tr ',' ';' >> "$FILE"
+            else
+                echo "Invalid format: $line"
             fi
         done
     else
-        echo "The file does not exist, please check the path."
+        if [[ -f "$filename" ]]; then
+          echo "Enter passenger data in the format: [code],[fullname],[age],[country],[status (Passenger or Crew)],[rescued (Yes or No)]:"
+        while read -r line; do
+            if [[ -z "$line" ]]; then
+                break
+            fi
+
+            if [[ "$line" =~ ^[A-Za-z0-9]+,[A-Za-z]+[[:space:]]+[A-Za-z]+,[0-9]+,[^,]+,(Passenger|Crew),(Yes|No)$ ]]; then
+                echo "$line" | tr ',' ';' >> "$filename"
+            else
+                echo "Invalid format: $line"
+            fi
+        done
+        else
+            echo "Error: File '$filename' not found."
+        fi
     fi
 }
 
@@ -40,7 +47,7 @@ search_passenger() {
         if (tolower(names[1]) == tolower(search) || tolower(names[2]) == tolower(search)) {
             print $0
         }
-    }' passenger_data.csv)
+    }' $FILE)
 
     if [[ -n "$results" ]]; then
         echo "Search results:"
@@ -50,82 +57,95 @@ search_passenger() {
     fi
 }
 
-update_passenger(){
-    
-        person_to_search="$1"
-	    fieldnvalue="${@:2}"
 
-	
+update_passenger() {
+    person_to_search="$1"
+    fieldnvalue="${@:2}"  #ta pairnei ola meta to :
 
+    if [ -z "$filepath" ]; then
+        filepath="./passenger_data.csv"
+    elif [ ! -f "$filepath" ]; then
+        echo "$filepath doesn't exist"
+        return
+    fi
 
-	if [ -z "$filepath" ]; then
-    		filepath="./passenger_data.csv"
-	elif [ ! -f "$filepath" ]; then
-    		echo "$filepath doesn't exist"
-    		return
-	fi
- 
+  
+    match=$(grep -i "$person_to_search" "$filepath")
+
+    if [ -z "$match" ]; then
+        echo "No match found for '$person_to_search'."
+        return
+    else
+        echo "Matches:"
+        echo "$match"
+    fi
+
+  
+    IFS=":" read -r field value <<< "$fieldnvalue"
+
+    if [ -z "$field" ] || [ -z "$value" ]; then
+        echo "Give correct input format"
+        return
+    fi
+
+    if [ "$field" == "record" ]; then
+        if [[ "$value" =~ ^[0-9]+,[A-Za-z]+[[:space:]]+[A-Za-z]+,[0-9]+,[^,]+,(Passenger|Crew),(Yes|No)$ ]]; then
+            
+            value=$(echo "$value" | tr ',' ';')
+            
+           
+            sed -i "s|$match|$value|" "$filepath"
+             echo "New record: $value"
+             echo "Old record: $match"
+            echo "Full record update successful"
+        else
+            echo "Invalid input format"
+        fi
+    else
+       
+        IFS=";" read -r code fullname age country status rescued <<< "$match"
 
         
-        match=$(grep -i "$person_to_search" "$filepath")
+        case "$field" in
+            code) code="$value" ;;
+            fullname) fullname="$value" ;;
+            age) age="$value" ;;
+            country) country="$value" ;;
+            status) status="$value" ;;
+            rescued) rescued="$value" ;;
+            *)
+                echo "Invalid field. Please use a valid field name."
+                return
+                ;;
+        esac
 
-        if [ -z "$match" ]; then
-                echo "No match found for '$person_to_search'."
-        else
-                echo "Matches:"
-                echo "$match"
-        fi
-	
-	       IFS=":" read -r field value <<< "$fieldnvalue"
-    
-	if [ -z "$field" ] || [ -z "$value" ]; then
-		echo "Give correct input format" 
-	fi
-	
+        
+        new_record="$code;$fullname;$age;$country;$status;$rescued"
 
-	if [ "$field" == "record" ]; then
-		 if [[ "$value" =~ ^[A-Za-z0-9]+,[A-Za-z]+[[:space:]]+[A-Za-z]+,[0-9]+,[^,]+,(Passenger|Crew),(Yes|No)$ ]]; then
-			sed -i "s/$match/$value/" "$filepath"
-			echo "Full record update succesful"
-		else
-			echo "Invalid input"
-		fi
-	else 
-	  IFS="," read -r code fullname age country status rescued <<< "$match"
-
-    case "$field" in
-        code) code="$value" ;;            
-        fullname) fullname="$value $3" ;;    
-        age) age="$value" ;;              
-        country) country="$value" ;;      
-        status) status="$value" ;;        
-        rescued) rescued="$value" ;;      
-        *) echo "Invalid field. Please use a valid field name."; return ;;
-    esac
-
-   
-    		new_record="$code,$fullname,$age,$country,$status,$rescued"   
-    		sed -i "s/$match/$new_record/" "$filepath"
-    		echo "Full record update successful"
-	fi
-
+        
+        sed -i "s|$match|$new_record|" "$filepath"
+        echo "New record: $new_record"
+        echo "Old record: $match"
+        echo "Field update successful"
+    fi
 }
+
+
 
 display_file() {
     filepath="$1"
 
     if [ -z "$filepath" ]; then
-    		filepath="./passenger_data.csv"
-	elif [ ! -f "$filepath" ]; then
-    		echo "$filepath doesn't exist"
-    		return
-	fi
- 
-
-    local page_size=$(($(tput lines) - 2))
+        filepath="./passenger_data.csv"
+    elif [ ! -f "$filepath" ]; then
+        echo "$filepath doesn't exist"
+        return
+    fi
     
+
     less "$filepath"
 }
+
 
 generate_reports(){
     input="$1"
@@ -143,78 +163,81 @@ generate_reports(){
     > "avg.txt"
     > "rescued.txt"
 
-    echo "Generating the age groups"
     awk -F'[;,]' '{
         age = $3;
 
         if (age >= 0 && age <= 18) {
-            group = "0-18";
+            agegroup = "0-18";
         } else if (age >= 19 && age <= 35) {
-            group = "19-35";
+            agegroup = "19-35";
         } else if (age >= 36 && age <= 50) {
-            group = "36-50";
+            agegroup = "36-50";
         } else if (age >= 51) {
-            group = "51+";
+            agegroup = "51+";
         }
 
-        ages[group]++;
+        ages[agegroup]++;
     } END {
-        for (group in ages) {
-            print group ":" ages[group] " passengers";
+
+        for (agegroup in ages) {
+            print agegroup ":" ages[agegroup] " passengers";
         }
+
     }' "$input" > ages.txt
 
-    echo "Generating rescued percent"
+
 awk -F'[;,]' '{
     age = $3;
+
+
     if (age >= 0 && age <= 18) {
-        group = "0-18";
+        agegroup = "0-18";
     } else if (age >= 19 && age <= 35) {
-        group = "19-35";
+        agegroup = "19-35";
     } else if (age >= 36 && age <= 50) {
-        group = "36-50";
+        agegroup = "36-50";
     } else if (age >= 51) {
-        group = "51+";
+        agegroup = "51+";
     }
 
 
-    if ( $6 ~ /^[[:space:]]*(Yes|yes)[[:space:]]*$/ || $6 ~ /^[[:space:]]*yes[[:space:]]*$/ ) {
-        rescued[group]++;
+    if ( $6 ~ /^[[:space:]]*(Yes|yes)[[:space:]]*$/ ) {
+        rescued[agegroup]++;
     }
-    total[group]++;
+    total[agegroup]++;
 } END {
-    for (group in total) {
-        if (total[group] > 0) {
-            rpercentage = int((rescued[group] / total[group]) * 100);
-            print group ":" rescued[group] " / " total[group] " rescued percentage: " rpercentage "%";
+
+    for (agegroup in total) {
+        if (total[agegroup] > 0) {
+            rescpercentage = int((rescued[agegroup] / total[agegroup]) * 100);
+            print agegroup ":" rescued[agegroup] "/" total[agegroup] " rescued percentage: "rescpercentage"%";
         } else {
-            print group ": No data available for this group";
+            print agegroup ": No data available for this agegroup";
         }
     }
+
 }' "$input" > percentages.txt
 
 
-echo "Generating average age per passenger category"
-  awk -F'[;,]' 'NR > 1 { 
+  awk -F'[;,]' '{ 
     age = $3;
-    category = $5;
+    crew_or_pass = $5;
 
    
     if (age ~ /^[0-9]+([.][0-9]+)?$/) {
-        total[category] += age;
-        count[category]++;
+        total[crew_or_pass] += age;
+        count[crew_or_pass]++;
     }
   } END {
-    for (category in total) {
-        if (count[category] > 0) {
-            average_age = total[category] / count[category];
-            print category ": Average age is: " average_age;
+    for (crew_or_pass in total) {
+        if (count[crew_or_pass] > 0) {
+            average_age = total[crew_or_pass] / count[crew_or_pass];
+            print crew_or_pass "s average age is: " average_age;
         }
     }
   }' "$input" > avg.txt
 
 
-echo "Generating file for rescued passengers"
   awk -F'[;,]' '{
    
     if ($6 ~ /^[[:space:]]*(Yes|yes)[[:space:]]*$/) {
@@ -225,8 +248,8 @@ echo "Generating file for rescued passengers"
 
 
 
-    echo "Reports generated for:"
-    echo "Age Groups in ages.txt"
+    echo "Generated:"
+    echo "Ageg roups in ages.txt"
     echo " Rescue Percentages in  percentages.txt"
     echo "Average Age per Category in avg.txt"
     echo "Rescued Passengers in rescued.txt"
@@ -243,8 +266,8 @@ elif [ $1 == "update" ]; then
 	update_passenger "$2" "$3" "$4"
 elif [ $1 == "display" ]; then
 	display_file
-elif [ $1 == "generate" ]; then
+elif [ $1 == "reports" ]; then
 	generate_reports
 else
-	echo "Type the following to access functions: insert, search, update, display, reports"
+	echo "Type one of the following functions: insert, search, update, display, reports"
 fi

@@ -1279,14 +1279,5 @@ code;fullname;age;country;status;rescued
 1278;Dia Ibrahima;71;Albania;Passenger;Yes
 1279;Abouba Zakari;72;Slovenia;Passenger;yes
 1280;Zhu Hao;73;Latvia;Passenger;yes
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-,,,,,
-1282,Yanni Ravas,20,Greece,Passenger,Yes
-1283, Aggelos Armenisian,20,Greece,Passenger,Yes
-1281,Kosti Mav,20,Greece,Passenger,No
+1285;Kostas Loukanaris;21;Greece;Passenger;Yes
+1286;Michael Mitsainas;21;Greece;Crew;No

@@ -1,2 +1,2 @@
-Crew: Average age is: 46.7241
-Passenger: Average age is: 47.4859
+Crews average age is: 46.5043
+Passengers average age is: 47.5339
