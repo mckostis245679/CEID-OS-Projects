@@ -49,7 +49,7 @@ void passenger_routine(int passenger_id, int total_passengers, int totalboats, i
     wait_semaphore(&boarding_queue);
 
     if (remaining_passengers > 0) {
-        wait_semaphore(&boats_available);
+  
         wait_semaphore(&boat_space);
 
         remaining_passengers--; 
@@ -59,6 +59,7 @@ void passenger_routine(int passenger_id, int total_passengers, int totalboats, i
 
         if (passengers_in_boat == seats_per_boat) {
             
+            wait_semaphore(&boats_available);
             boats_filled++;
             
             if (boats_filled == totalboats) {
@@ -74,10 +75,7 @@ void passenger_routine(int passenger_id, int total_passengers, int totalboats, i
                  post_semaphore(&boat_space);
                }       
             passengers_in_boat = 0;
-        } else {
-            post_semaphore(&boats_available);
-            post_semaphore(&boat_space);
-        }
+        } 
     }
 
     post_semaphore(&boarding_queue);

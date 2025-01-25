@@ -1,7 +1,14 @@
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra
+LDFLAGS = -lm
+
+
 all:
-	gcc launch.c passenger.c -pthread -o output/launch -Wall -Werror -Wextra && ./output/launch
+	$(CC) launch.c passenger.c -g -o output/launch  $(CFLAGS) $(LDFLAGS) && ./output/launch
 
 debug:
-	gcc launch.c passenger.c -pthread -g -o output/launch -Wall -Werror -Wextra && ./output/launch
+	$(CC) launch.c passenger.c  -g -o output/launch $(CFLAGS) $(LDFLAGS) && ./output/launch
 
 
+clean:
+	rm -rf output
