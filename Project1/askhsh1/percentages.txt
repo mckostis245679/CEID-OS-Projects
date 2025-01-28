@@ -1,4 +1,4 @@
 51+:484/589 rescued percentage: 82%
 36-50:217/260 rescued percentage: 83%
 0-18:122/144 rescued percentage: 84%
-19-35:238/290 rescued percentage: 82%
+19-35:238/291 rescued percentage: 81%

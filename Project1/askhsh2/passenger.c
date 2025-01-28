@@ -1,3 +1,6 @@
+/* Mavridis Konstantinos, 1100620 */
+/* Mitsainas Mixail-Xaralampos, 1100628 */
+/* Loukanaris Konstantinos, 1100610 */
 #include "ipc_utils.h"
 
 extern sem_t boat_space;

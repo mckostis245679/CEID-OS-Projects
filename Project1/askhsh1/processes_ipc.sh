@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###################################
+# Mavridis Konstantinos, 1100620 
+# Mitsainas Mixail-Xaralampos, 1100628
+# Loukanaris Konstantinos, 1100610 
+###################################
+
 FILE="passenger_data.csv" #GIA DIEUKOLINSH VALTE TO PATH TOU CSV SAS
 
 insert_data() {

@@ -1,5 +1,9 @@
-   #include "ipc_utils.h"
+/* Mavridis Konstantinos, 1100620 */
+/* Mitsainas Mixail-Xaralampos, 1100628 */
+/* Loukanaris Konstantinos, 1100610 */
+#include "ipc_utils.h"
 
+//allagh an theloume na valoyme alla oria varkwn kai passengers
     #define MAX_PASSENGERS 200
     #define MAX_BOATS 50
 
@@ -14,9 +18,9 @@
         int passengers, boats, seats_per_boat;
 
         
-        printf("Enter number of passengers: ");
+        printf("Enter number of passengers(max: %d): ", MAX_PASSENGERS);
         scanf("%d", &passengers);
-        printf("Enter number of boats: "); 
+        printf("Enter number of boats(max: %d): ", MAX_BOATS); 
         scanf("%d", &boats);
         printf("Enter seats per boat: "); 
         scanf("%d", &seats_per_boat);
